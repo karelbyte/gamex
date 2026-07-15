@@ -24,11 +24,19 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
+      - name: Debug Info
+        run: |
+          ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+          echo "Account: $ACCOUNT_ID"
+          echo "Bucket: gamex-tf-state-$ACCOUNT_ID"
+          echo "Image tag: ${{ github.sha }}"
+          echo "Terraform version: $(terraform version)"
+          aws s3api head-bucket --bucket "gamex-tf-state-$ACCOUNT_ID" && echo "Bucket exists" || echo "Bucket missing"
+
       - name: Create Terraform State Bucket
         run: |
           ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
           echo "ACCOUNT_ID=$ACCOUNT_ID" >> $GITHUB_ENV
-
           BUCKET="gamex-tf-state-$ACCOUNT_ID"
           aws s3api head-bucket --bucket "$BUCKET" 2>/dev/null || \
             aws s3 mb "s3://$BUCKET" --region $AWS_REGION
@@ -42,11 +50,21 @@ jobs:
             -backend-config="use_lockfile=true"
         working-directory: terraform/
 
-      - name: Terraform Apply
+      - name: Terraform Validate
         run: |
-          terraform apply -auto-approve \
+          terraform validate
+        working-directory: terraform/
+
+      - name: Terraform Plan
+        run: |
+          terraform plan -out=tfplan \
             -var="auth_secret=${{ secrets.AUTH_SECRET }}" \
             -var="image_tag=${{ github.sha }}"
+        working-directory: terraform/
+
+      - name: Terraform Apply
+        run: |
+          terraform apply tfplan
         working-directory: terraform/
 
       - name: Login to Amazon ECR
