@@ -1,22 +1,8 @@
 import { Pool } from "pg";
 import path from "path";
 import fs from "fs";
-import { Signer } from "@aws-sdk/rds-signer";
 
 function createPool(): Pool {
-  const rdsHost = process.env.RDS_HOST;
-  if (rdsHost) {
-    const region = process.env.AWS_REGION || "us-east-2";
-    const port = parseInt(process.env.RDS_PORT || "5432", 10);
-    const user = process.env.RDS_USER || "postgres";
-    const database = process.env.RDS_DATABASE || "gamex";
-    const signer = new Signer({ hostname: rdsHost, port, username: user, region });
-    return new Pool({
-      host: rdsHost, port, database, user,
-      password: () => signer.getAuthToken(),
-      ssl: { rejectUnauthorized: true },
-    });
-  }
   return new Pool({
     connectionString: process.env.DATABASE_URL || "postgresql://postgres:postgres@localhost:5432/gamex",
   });

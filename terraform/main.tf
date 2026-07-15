@@ -17,7 +17,13 @@ data "aws_subnets" "all" {
 
 locals {
   account_id = data.aws_caller_identity.current.account_id
-  image_uri  = "${local.account_id}.dkr.ecr.${var.region}.amazonaws.com/${var.ecr_repository_name}:${var.image_tag}"
+}
+
+# --- Random Password for RDS ---
+
+resource "random_password" "rds_master" {
+  length  = 20
+  special = false
 }
 
 # --- Security Groups ---
@@ -62,10 +68,14 @@ resource "aws_vpc_security_group_egress_rule" "ecs_egress" {
   ip_protocol       = "-1"
 }
 
-resource "aws_vpc_security_group_ingress_rule" "rds_from_ecs" {
-  count = var.rds_security_group_id != "" ? 1 : 0
+resource "aws_security_group" "rds" {
+  name        = "gamex-rds"
+  description = "RDS for Gamex"
+  vpc_id      = data.aws_vpc.default.id
+}
 
-  security_group_id            = var.rds_security_group_id
+resource "aws_vpc_security_group_ingress_rule" "rds_from_ecs" {
+  security_group_id            = aws_security_group.rds.id
   referenced_security_group_id = aws_security_group.ecs_tasks.id
   from_port                    = 5432
   to_port                      = 5432
@@ -128,16 +138,45 @@ resource "aws_iam_role_policy" "ecs_task_ecr" {
   })
 }
 
-resource "aws_iam_role_policy" "ecs_task_rds" {
-  role = aws_iam_role.ecs_task.name
-  policy = jsonencode({
-    Version = "2012-10-17"
-    Statement = [{
-      Effect = "Allow"
-      Action = ["rds-db:connect"]
-      Resource = "arn:aws:rds-db:${var.region}:${local.account_id}:dbuser:*/${var.rds_user}"
-    }]
-  })
+# --- ECR ---
+
+resource "aws_ecr_repository" "gamex" {
+  name                 = var.ecr_repository_name
+  image_tag_mutability = "MUTABLE"
+  force_delete         = true
+}
+
+# --- RDS ---
+
+resource "aws_db_subnet_group" "gamex" {
+  name       = "gamex"
+  subnet_ids = data.aws_subnets.all.ids
+}
+
+resource "aws_rds_cluster" "gamex" {
+  cluster_identifier  = "gamex"
+  engine              = "aurora-postgresql"
+  engine_mode         = "provisioned"
+  engine_version      = "15.3"
+  database_name       = "gamex"
+  master_username     = var.rds_user
+  master_password     = random_password.rds_master.result
+  db_subnet_group_name   = aws_db_subnet_group.gamex.name
+  vpc_security_group_ids = [aws_security_group.rds.id]
+  skip_final_snapshot     = true
+  storage_encrypted       = true
+
+  serverlessv2_scaling_configuration {
+    min_capacity = 0.5
+    max_capacity = 2
+  }
+}
+
+resource "aws_rds_cluster_instance" "gamex" {
+  cluster_identifier = aws_rds_cluster.gamex.id
+  instance_class     = "db.serverless"
+  engine             = aws_rds_cluster.gamex.engine
+  engine_version     = aws_rds_cluster.gamex.engine_version
 }
 
 # --- ECS ---
@@ -158,21 +197,17 @@ resource "aws_ecs_task_definition" "gamex" {
   container_definitions = jsonencode([
     {
       name      = "gamex"
-      image     = local.image_uri
+      image     = "${aws_ecr_repository.gamex.repository_url}:${var.image_tag}"
       essential = true
       portMappings = [{
         containerPort = 3000
         protocol      = "tcp"
       }]
       environment = [
-        { name = "NODE_ENV",     value = "production" },
-        { name = "AWS_REGION",   value = var.region },
-        { name = "AUTH_URL",     value = "http://${aws_lb.gamex.dns_name}" },
-        { name = "AUTH_SECRET",  value = var.auth_secret },
-        { name = "RDS_HOST",     value = var.rds_host },
-        { name = "RDS_PORT",     value = tostring(var.rds_port) },
-        { name = "RDS_USER",     value = var.rds_user },
-        { name = "RDS_DATABASE", value = var.rds_database },
+        { name = "NODE_ENV",        value = "production" },
+        { name = "AUTH_TRUST_HOST", value = "true" },
+        { name = "AUTH_SECRET",     value = var.auth_secret },
+        { name = "DATABASE_URL",    value = "postgresql://${var.rds_user}:${random_password.rds_master.result}@${aws_rds_cluster.gamex.endpoint}:${var.rds_port}/gamex?sslmode=require" },
       ]
       logConfiguration = {
         logDriver = "awslogs"
