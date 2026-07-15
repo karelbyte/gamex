@@ -51,20 +51,37 @@ jobs:
         working-directory: terraform/
 
       - name: Terraform Validate
-        run: |
-          terraform validate
+        run: terraform validate
         working-directory: terraform/
 
-      - name: Terraform Plan
+      - name: Import orphaned resources
+        continue-on-error: true
         run: |
-          terraform plan -out=tfplan \
-            -var="auth_secret=${{ secrets.AUTH_SECRET }}" \
-            -var="image_tag=${{ github.sha }}"
+          # Import resources that may exist from previous failed runs
+          terraform import -var="auth_secret=x" -var="image_tag=x" \
+            aws_iam_role.ecs_execution gamex-ecs-execution 2>/dev/null || true
+          terraform import -var="auth_secret=x" -var="image_tag=x" \
+            aws_iam_role.ecs_task gamex-ecs-task 2>/dev/null || true
+          terraform import -var="auth_secret=x" -var="image_tag=x" \
+            aws_cloudwatch_log_group.gamex /ecs/gamex 2>/dev/null || true
+          # Import ALB + listener if they exist
+          LB_ARN=$(aws elbv2 describe-load-balancers --names gamex --query "LoadBalancers[0].LoadBalancerArn" --output text 2>/dev/null)
+          if [ "$LB_ARN" != "None" ] && [ -n "$LB_ARN" ]; then
+            terraform import -var="auth_secret=x" -var="image_tag=x" \
+              aws_lb.gamex "$LB_ARN" 2>/dev/null || true
+            LISTENER_ARN=$(aws elbv2 describe-listeners --load-balancer-arn "$LB_ARN" --query "Listeners[0].ListenerArn" --output text 2>/dev/null)
+            if [ "$LISTENER_ARN" != "None" ] && [ -n "$LISTENER_ARN" ]; then
+              terraform import -var="auth_secret=x" -var="image_tag=x" \
+                aws_lb_listener.gamex "$LISTENER_ARN" 2>/dev/null || true
+            fi
+          fi
         working-directory: terraform/
 
       - name: Terraform Apply
         run: |
-          terraform apply tfplan
+          terraform apply -auto-approve \
+            -var="auth_secret=${{ secrets.AUTH_SECRET }}" \
+            -var="image_tag=${{ github.sha }}"
         working-directory: terraform/
 
       - name: Login to Amazon ECR

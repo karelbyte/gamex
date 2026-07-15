@@ -153,30 +153,23 @@ resource "aws_db_subnet_group" "gamex" {
   subnet_ids = data.aws_subnets.all.ids
 }
 
-resource "aws_rds_cluster" "gamex" {
-  cluster_identifier  = "gamex"
-  engine              = "aurora-postgresql"
-  engine_mode         = "provisioned"
-  engine_version      = "15.3"
-  database_name       = "gamex"
-  master_username     = var.rds_user
-  master_password     = random_password.rds_master.result
+resource "aws_db_instance" "gamex" {
+  identifier        = "gamex"
+  engine            = "postgres"
+  engine_version    = "16"
+  instance_class    = "db.t4g.micro"
+  allocated_storage = 20
+  db_name           = "gamex"
+  username          = var.rds_user
+  password          = random_password.rds_master.result
   db_subnet_group_name   = aws_db_subnet_group.gamex.name
   vpc_security_group_ids = [aws_security_group.rds.id]
   skip_final_snapshot     = true
-  storage_encrypted       = true
-
-  serverlessv2_scaling_configuration {
-    min_capacity = 0.5
-    max_capacity = 2
-  }
-}
-
-resource "aws_rds_cluster_instance" "gamex" {
-  cluster_identifier = aws_rds_cluster.gamex.id
-  instance_class     = "db.serverless"
-  engine             = aws_rds_cluster.gamex.engine
-  engine_version     = aws_rds_cluster.gamex.engine_version
+  publicly_accessible    = false
+  storage_encrypted      = true
+  multi_az               = false
+  backup_retention_period = 0
+  deletion_protection     = false
 }
 
 # --- ECS ---
@@ -207,7 +200,7 @@ resource "aws_ecs_task_definition" "gamex" {
         { name = "NODE_ENV",        value = "production" },
         { name = "AUTH_TRUST_HOST", value = "true" },
         { name = "AUTH_SECRET",     value = var.auth_secret },
-        { name = "DATABASE_URL",    value = "postgresql://${var.rds_user}:${random_password.rds_master.result}@${aws_rds_cluster.gamex.endpoint}:${var.rds_port}/gamex?sslmode=require" },
+        { name = "DATABASE_URL",    value = "postgresql://${var.rds_user}:${random_password.rds_master.result}@${aws_db_instance.gamex.endpoint}:${var.rds_port}/gamex?sslmode=require" },
       ]
       logConfiguration = {
         logDriver = "awslogs"

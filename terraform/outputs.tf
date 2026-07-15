@@ -4,8 +4,8 @@ output "alb_dns" {
 }
 
 output "rds_endpoint" {
-  value       = aws_rds_cluster.gamex.endpoint
-  description = "RDS cluster endpoint"
+  value       = aws_db_instance.gamex.endpoint
+  description = "RDS endpoint"
 }
 
 output "ecs_cluster_name" {
