@@ -24,6 +24,8 @@ function createPool(): Pool {
 
 const pool = createPool();
 
+export { pool };
+
 let _initialized = false;
 
 export async function getDb(): Promise<Pool> {
