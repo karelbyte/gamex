@@ -24,8 +24,8 @@ Push to `main` → GitHub Actions lo hace todo:
 ## Estructura Terraform
 
 - `terraform/main.tf` — todo el infra (RDS, ECS, ALB, ECR, SGs, IAM)
-- `terraform/backend.tf` — backend S3 + DynamoDB lock
-- El bucket S3 y la tabla DynamoDB se crean automáticamente en el primer deploy
+- `terraform/backend.tf` — backend S3 con lock en S3
+- El bucket S3 se crea automáticamente en el primer deploy
 - La contraseña de RDS es generada aleatoriamente y guardada en el state de Terraform
 
 ## Local dev
