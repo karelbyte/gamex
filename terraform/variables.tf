@@ -2,6 +2,11 @@ variable "region" {
   default = "us-east-2"
 }
 
+variable "auth_secret" {
+  description = "Secret for NextAuth.js - generate with: openssl rand -base64 32"
+  sensitive   = true
+}
+
 variable "rds_host" {
   description = "RDS instance endpoint"
 }

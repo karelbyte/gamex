@@ -167,6 +167,8 @@ resource "aws_ecs_task_definition" "gamex" {
       environment = [
         { name = "NODE_ENV",     value = "production" },
         { name = "AWS_REGION",   value = var.region },
+        { name = "AUTH_URL",     value = "http://${aws_lb.gamex.dns_name}" },
+        { name = "AUTH_SECRET",  value = var.auth_secret },
         { name = "RDS_HOST",     value = var.rds_host },
         { name = "RDS_PORT",     value = tostring(var.rds_port) },
         { name = "RDS_USER",     value = var.rds_user },
