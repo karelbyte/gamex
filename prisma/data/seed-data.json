@@ -1,0 +1,5409 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "name": "El Camino Olvidado",
+      "description": "Un sendero olvidado se pierde entre la niebla. El cartel dice algo, pero las letras están casi borradas por el tiempo. Solo puedes leer: '...no regreses'. El bosque te observa.",
+      "zone": 1
+    },
+    {
+      "id": 2,
+      "name": "Entrada del Bosque",
+      "description": "Dos robles ancestrales forman un arco grotesco. Sus ramas se retuercen como dedos huesudos buscando algo que agarrar. Más allá, la oscuridad del bosque es casi sólida.",
+      "zone": 1
+    },
+    {
+      "id": 3,
+      "name": "Arroyo Turbio",
+      "description": "El agua negra del arroyo se mueve lenta, como sangre espesa. Algo brilla débilmente bajo la superficie — quizás solo un reflejo, quizás algo que te mira de vuelta.",
+      "zone": 1
+    },
+    {
+      "id": 4,
+      "name": "Muro de Piedra",
+      "description": "El muro se extiende hasta donde alcanza la vista, cubierto de cicatrices del tiempo. Los grabados muestran figuras que bailan — o huyen. El búho no te quita los ojos de encima.",
+      "zone": 1
+    },
+    {
+      "id": 5,
+      "name": "Cabaña del Leñador",
+      "description": "La cabaña cruje con el viento. La puerta está entreabierta. Dentro, un desorden de años: platos rotos, una mesa volcada, y sobre la repisa de la chimenea... una llave oxidada que brilla con un destello apagado.",
+      "zone": 1
+    },
+    {
+      "id": 6,
+      "name": "Sendero Bifurcado",
+      "description": "El camino se parte en tres direcciones. En cada tronco, marcas profundas de garras. Algo territorial vive aquí. Un cráneo de ciervo cuelga como advertencia silenciosa.",
+      "zone": 1
+    },
+    {
+      "id": 7,
+      "name": "Zarzal Espinoso",
+      "description": "Las espinas son como dientes negros. Trozos de ropa desgarrada hablan de otros que intentaron pasar. Las bayas rojas parecen gotas de sangre congelada.",
+      "zone": 1
+    },
+    {
+      "id": 8,
+      "name": "Puente de Troncos",
+      "description": "Los troncos gimen bajo tus pies. Las cuerdas podrían romperse en cualquier momento. Abajo, entre la niebla, ves formas blancas — huesos de los que cayeron antes.",
+      "zone": 1
+    },
+    {
+      "id": 9,
+      "name": "Pantano de las Luciérnagas",
+      "description": "Las luciérnagas danzan con una luz enfermiza. El agua burbujea y huele a muerte. Los árboles muertos te observan con sus ramas como brazos suplicantes. Algo se mueve bajo la superficie.",
+      "zone": 1
+    },
+    {
+      "id": 10,
+      "name": "Claro de los Cuervos",
+      "description": "Los cuervos te miran con ojos inteligentes. Son cientos, quizás miles. El espantapájaros en el centro sonríe con una mueca de locura pintada. Nadie espanta a nadie aquí.",
+      "zone": 1
+    },
+    {
+      "id": 11,
+      "name": "Arboleda de los Ahorcados",
+      "description": "Muñecos de paja cuelgan de cada rama, meciéndose sin viento. Sus rostros de tela están cosidos con hilo negro. Las marcas en los troncos parecen nombres — o maldiciones.",
+      "zone": 1
+    },
+    {
+      "id": 12,
+      "name": "Altar del Hada",
+      "description": "El hada te mira con ojos enormes y tristes. Sus alas están rotas, iridiscentes pero inútiles. 'Llevo siglos esperando a alguien', susurra. Te ofrece un farol de llama azul. 'Lo necesitarás donde la luz muere.'",
+      "zone": 1
+    },
+    {
+      "id": 13,
+      "name": "Túnel de Espinas",
+      "description": "El túnel te abraza con espinas. Cada paso requiere cuidado. Las telarañas se pegan a tu rostro como dedos fríos. Al fondo, una luz débil promete salida — o trampa.",
+      "zone": 1
+    },
+    {
+      "id": 14,
+      "name": "Bosque de Piedra",
+      "description": "Los árboles son de piedra. Cada uno congelado en una expresión de agonía, como si gritaran cuando la maldición los alcanzó. El silencio aquí es tan denso que puedes escuchar tu propia sangre correr.",
+      "zone": 1
+    },
+    {
+      "id": 15,
+      "name": "Isla del Pantano",
+      "description": "La isla es apenas un respiro de tierra firme. El sauce muerto llora ramas secas. Alguien hizo rituales aquí — las velas, los huesos, los círculos en la tierra. Algo fue invocado. O liberado.",
+      "zone": 1
+    },
+    {
+      "id": 16,
+      "name": "Senda de las Plumas",
+      "description": "Caminas sobre un manto de plumas negras que amortiguan cada paso. Los nidos en las copas son del tamaño de una persona. ¿Qué clase de aves necesitan nidos tan grandes?",
+      "zone": 2
+    },
+    {
+      "id": 17,
+      "name": "Cementerio de Raíces",
+      "description": "Las raíces han empujado la tierra, revelando lo que estaba enterrado. Huesos antiguos asoman entre la tierra oscura. Los hongos brillan con colores que gritan 'no me toques'.",
+      "zone": 2
+    },
+    {
+      "id": 18,
+      "name": "Tumba Olvidada",
+      "description": "La tumba fue abierta hace mucho. El esqueleto dentro parece sonreír. En su pecho, un amuleto de hueso pulido brilla con una luz tenue y enfermiza. Lo tomas — los dientes del esqueleto parecen apretarse.",
+      "zone": 2
+    },
+    {
+      "id": 19,
+      "name": "Hondonada Silenciosa",
+      "description": "Aquí el sonido muere. Tus pasos no hacen ruido. Tu respiración es muda. La estatua de la mujer llora lágrimas de musgo verde. El silencio es tan profundo que duele.",
+      "zone": 2
+    },
+    {
+      "id": 20,
+      "name": "Jardín Salvaje",
+      "description": "Alguien cultivó belleza aquí alguna vez. Ahora los rosales son negros y las espinas brillan como obsidiana. La fuente escupe agua verde. Las estatuas debajo de las enredaderas tienen expresiones de terror.",
+      "zone": 2
+    },
+    {
+      "id": 21,
+      "name": "Fuente Petrificada",
+      "description": "El agua se convirtió en piedra mientras caía. Las ninfas que decoraban la fuente tienen los ojos abiertos de par en par, como si vieran venir la maldición. Todo aquí está muerto — hasta el tiempo.",
+      "zone": 2
+    },
+    {
+      "id": 22,
+      "name": "Cripta Hundida",
+      "description": "La cripta se hunde en la tierra como si la tragara. La puerta de hierro gime cuando la llave oxidada gira en la cerradura. Dentro, escalones descendentes se pierden en la oscuridad. El aire frío te golpea como un puño.",
+      "zone": 2
+    },
+    {
+      "id": 23,
+      "name": "Nido Gigante",
+      "description": "El nido es monstruoso. Las plumas son tan largas como tu brazo. Los huevos rotos muestran garras por dentro — lo que nació aquí se abrió paso con violencia. Desde arriba, el bosque se extiende como un océano negro.",
+      "zone": 2
+    },
+    {
+      "id": 24,
+      "name": "Árbol Hueco",
+      "description": "El árbol está vacío por dentro. Alguien vivió aquí — las marcas de uñas en la madera lo confirman. Entre las raíces secas encuentras una cuerda fuerte, trenzada con raíces. Puede soportar tu peso.",
+      "zone": 2
+    },
+    {
+      "id": 25,
+      "name": "Claro de los Hongos",
+      "description": "Los hongos brillan con una luz antinatural. Las esporas flotan y hacen que todo se vea borroso. Un duende diminuto ronca sobre un hongo púrpura. Su sueño parece... obligado. Como si algo lo mantuviera dormido.",
+      "zone": 2
+    },
+    {
+      "id": 26,
+      "name": "Río Silencioso",
+      "description": "El río fluye sin sonido, como si estuviera hecho de seda negra. En la otra orilla, figuras oscuras permanecen inmóviles. ¿Personas? ¿Árboles? No se mueven. Pero juras que una giró la cabeza.",
+      "zone": 2
+    },
+    {
+      "id": 27,
+      "name": "Cascada Negra",
+      "description": "El agua cae negra como petróleo. La poza debajo no muestra fondo — es un ojo abierto mirando al cielo. Las mariposas negras beben del vapor. Todo aquí parece invertido, corrupto.",
+      "zone": 2
+    },
+    {
+      "id": 28,
+      "name": "Círculo de Piedras",
+      "description": "Las piedras zumban con energía. Las runas brillan tenues como brasas moribundas. Dentro del círculo, la tierra está quemada y el cielo muestra estrellas — aunque afuera es de día. Este lugar no pertenece a este mundo.",
+      "zone": 2
+    },
+    {
+      "id": 29,
+      "name": "Ruinas del Santuario",
+      "description": "El santuario fue destruido con violencia. Las columnas yacen como huesos rotos. En el suelo, entre los escombros, un espejo roto refleja algo — pero no es tu rostro. Ni tu cielo. Lo tomas con cuidado.",
+      "zone": 2
+    },
+    {
+      "id": 30,
+      "name": "Cámara de los Ecos",
+      "description": "Cada gota resuena como un trueno aquí. Los grabados muestran personas huyendo — todas en la misma dirección, de algo que el artista no se atrevió a dibujar. Solo dejó un vacío negro donde debería estar la criatura.",
+      "zone": 2
+    },
+    {
+      "id": 31,
+      "name": "Cueva Sin Luz",
+      "description": "La llama azul revela cristales en las paredes que reflejan la luz como un cielo estrellado subterráneo. Los huesos en el suelo crujen bajo tus pies. La cueva se extiende más allá de lo que la luz alcanza.",
+      "zone": 3
+    },
+    {
+      "id": 32,
+      "name": "Laberinto de Raíces",
+      "description": "Las raíces forman paredes vivientes que parecen moverse cuando no las miras. Alguien dejó marcas de tiza — un viajero anterior. ¿Encontró la salida, o las marcas son para perderte?",
+      "zone": 3
+    },
+    {
+      "id": 33,
+      "name": "Nido del Cuervo",
+      "description": "El cuervo es del tamaño de un perro. Te mira con ojos rojos como rubíes. Su nido está lleno de tesoros robados — entre ellos, una flauta tallada en hueso que brilla con un aura extraña. El cuervo no se opone a que la tomes.",
+      "zone": 3
+    },
+    {
+      "id": 34,
+      "name": "Orilla Opuesta",
+      "description": "Las figuras no son personas. Son troncos tallados con rostros de agonía tan realistas que te revuelven el estómago. ¿Quién pasó horas tallando sufrimiento en la madera? ¿Y por qué?",
+      "zone": 3
+    },
+    {
+      "id": 35,
+      "name": "Lago del Espíritu",
+      "description": "El lago es un espejo perfecto. El espíritu te mira sin ojos. 'Otro buscador', dice con voz de viento. 'El último no llevaba protección. Ahora vive en el fondo.' Tu amuleto de hueso brilla — el espíritu asiente y te deja pasar.",
+      "zone": 3
+    },
+    {
+      "id": 36,
+      "name": "Colina del Vigía",
+      "description": "Desde aquí ves la extensión del bosque. Es infinito y negro. A lo lejos, una torre oscura se alza sobre las copas — tu destino. El telescopio roto apunta hacia ella, como si alguien la vigilara. O le temiera.",
+      "zone": 3
+    },
+    {
+      "id": 37,
+      "name": "Paso Subterráneo",
+      "description": "El túnel huele a tierra mojada y podredumbre. Las ratas te observan sin huir — acostumbradas a visitantes. O esperando que caigas. Los hongos en las paredes dan apenas luz suficiente para ver el próximo paso.",
+      "zone": 3
+    },
+    {
+      "id": 38,
+      "name": "Claro de la Luna Roja",
+      "description": "La luna roja tiñe todo de sangre. Las flores negras se abren hacia ella como adorándola. El cáliz en el centro contiene Sangre de Luna — un líquido que pulsa con vida propia. Lo tomas y las sombras dejan de bailar.",
+      "zone": 3
+    },
+    {
+      "id": 39,
+      "name": "Centro del Laberinto",
+      "description": "El duende te mira con ojos astutos. 'Te perdiste, ¿eh?', dice soltando humo verde. 'Todos se pierden. Yo conozco todos los caminos... por un precio.' No pide nada ahora, pero recuerda su oferta.",
+      "zone": 3
+    },
+    {
+      "id": 40,
+      "name": "Precipicio",
+      "description": "El precipicio se abre como una herida en la tierra. El fondo es invisible entre la niebla. Con la cuerda de raíces, atas un extremo al tronco y desciendes al otro lado. Sin ella, no hay forma de cruzar.",
+      "zone": 3
+    },
+    {
+      "id": 41,
+      "name": "Sendero de Huesos",
+      "description": "Cada paso es sobre huesos. Los cráneos te saludan encendiendo sus velas cuando pasas — una procesión macabra de luz guiándote hacia adelante. ¿Hospitalidad? ¿O te guían a una trampa?",
+      "zone": 3
+    },
+    {
+      "id": 42,
+      "name": "Trono Abandonado",
+      "description": "Alguien reinó aquí en el bosque. El trono es de madera viva y hueso. La corona de espinas en el asiento está manchada de sangre antigua. Los tapices muestran un reino que ya no existe. Tomas la corona — pesa más de lo que debería.",
+      "zone": 3
+    },
+    {
+      "id": 43,
+      "name": "Desfiladero",
+      "description": "Las paredes se cierran sobre ti. Las marcas de manos en la roca — decenas de ellas — cuentan historias de desesperación. Alguien intentó escalar. Muchos lo intentaron. Las marcas terminan siempre a la misma altura.",
+      "zone": 3
+    },
+    {
+      "id": 44,
+      "name": "Guarida del Troll",
+      "description": "El troll es una montaña de carne gris y verrugas. Ronca como un terremoto. Los huesos a su alrededor no son solo de animales. El pasaje detrás de él es tu única salida norte — pero tendrás que ser silencioso.",
+      "zone": 3
+    },
+    {
+      "id": 45,
+      "name": "Gruta de la Gorgona",
+      "description": "Levantas el espejo roto. La Gorgona se ve a sí misma y grita — un sonido que rompe más espejos. Se retira a las sombras, furiosa pero impotente. El camino queda libre.",
+      "zone": 3
+    },
+    {
+      "id": 46,
+      "name": "Bosque Invertido",
+      "description": "Aquí la realidad se invirtió. Los árboles crecen con las raíces al cielo. Las hojas caen hacia arriba. Tu sombra está sobre ti. Caminas sobre copas de árboles y el cielo está bajo tus pies. La locura tiene forma de bosque.",
+      "zone": 3
+    },
+    {
+      "id": 47,
+      "name": "Plaza de los Muertos",
+      "description": "Los fantasmas viven su rutina eterna. Se sientan, caminan, conversan sin sonido. No te ven — o fingen no verte. Es un pueblo fantasma atrapado en un momento que se repite para siempre.",
+      "zone": 3
+    },
+    {
+      "id": 48,
+      "name": "Fuente Seca",
+      "description": "La fuente lleva siglos seca. Las palomas murieron esperando agua que nunca volvió. En el fondo agrietado, un ojo de cristal te mira con una pupila que se dilata. Lo tomas — y por un instante, ves caminos que antes no existían.",
+      "zone": 3
+    },
+    {
+      "id": 49,
+      "name": "Puente Colgante",
+      "description": "El puente se balancea con cada ráfaga. Faltan tablas — cada paso es un acto de fe. El espantapájaros en el centro te mira con su cara de arpillera cosida. El cartel dice 'ÚLTIMO AVISO'. ¿Aviso de qué?",
+      "zone": 3
+    },
+    {
+      "id": 50,
+      "name": "Puente del Guardián",
+      "description": "Tocas la flauta de hueso. La melodía es triste, antigua. El Guardián baja la espada lentamente, como recordando algo. Se hace a un lado y la luz de sus ojos se apaga un momento — como lágrimas de fuego.",
+      "zone": 3
+    },
+    {
+      "id": 51,
+      "name": "Mercado Espectral",
+      "description": "Los fantasmas comercian con el aire. Sus monedas no existen, sus productos se desvanecen al tocarlos. Pero un puesto tiene algo real — un mapa dibujado en cuero viejo que muestra senderos que el Ojo de Cristal podría revelar.",
+      "zone": 4
+    },
+    {
+      "id": 52,
+      "name": "Campanario Roto",
+      "description": "La torre no tiene iglesia. Se alza sola como un dedo acusador apuntando al cielo. La campana pende de un hilo oxidado. Si cae, el sonido despertaría todo lo que duerme en este bosque. Subes con cuidado.",
+      "zone": 4
+    },
+    {
+      "id": 53,
+      "name": "Nido en la Torre",
+      "description": "El búho negro es antiguo — sus ojos dorados contienen siglos de conocimiento. Te observa sin hostilidad. Entre sus plumas caídas, una destaca: más larga, más oscura, vibrando con poder. El búho inclina la cabeza — permiso concedido.",
+      "zone": 4
+    },
+    {
+      "id": 54,
+      "name": "Pantano Profundo",
+      "description": "El agua te llega a las rodillas incluso en las piedras. Los gases forman siluetas que te llaman con gestos. No son fantasmas — son solo gas. ¿Verdad? Las piedras hundidas son el único camino seguro.",
+      "zone": 4
+    },
+    {
+      "id": 55,
+      "name": "Puerta de Sangre",
+      "description": "Viertes la Sangre de Luna en la depresión. La puerta suspira — un sonido orgánico y perturbador. Las venas rojas brillan intensamente y la piedra se abre como una herida. Lo que hay más allá es más oscuro que la noche.",
+      "zone": 4
+    },
+    {
+      "id": 56,
+      "name": "Jardín de Cenizas",
+      "description": "Todo es ceniza aquí. Un jardín incinerado que se niega a desaparecer. Las flores se deshacen al roce. La ceniza cae como nieve gris. Pero hay huellas frescas — alguien estuvo aquí hace poco. Alguien de carne y hueso.",
+      "zone": 4
+    },
+    {
+      "id": 57,
+      "name": "Isla de los Sauces",
+      "description": "Los sauces lloran en el agua negra. Un hada agoniza contra el tronco — su piel es gris, sus alas se marchitan. 'La raíz de mandrágora... solo eso me salvaría', murmura con voz débil.",
+      "zone": 4
+    },
+    {
+      "id": 58,
+      "name": "Jardín Putrefacto",
+      "description": "La vida aquí es una parodia enferma. Las frutas supuran. Las flores tienen dientes. Pero en el centro, la mandrágora espera — su raíz tiene forma de persona gritando. La arrancas y juras que escuchas un alarido distante.",
+      "zone": 4
+    },
+    {
+      "id": 59,
+      "name": "Escalera en Espiral",
+      "description": "La escalera sube y sube y termina en nada. Pero desde arriba ves lo que no se ve abajo — los senderos del bosque forman un pentagrama. Estás dentro de un ritual del tamaño de kilómetros. Todo el bosque es el conjuro.",
+      "zone": 4
+    },
+    {
+      "id": 60,
+      "name": "Corte del Rey Duende",
+      "description": "El Rey Duende te mira con desprecio. '¿Qué eres tú para presentarte sin tributo ante un rey?' Sus guardias levantan lanzas de hueso. No te dejará pasar sin prueba de respeto.",
+      "zone": 4
+    },
+    {
+      "id": 61,
+      "name": "Bosque de Telarañas",
+      "description": "Las telarañas son tan gruesas que parecen tela. Los capullos en las ramas tienen forma humana. La araña gigante te observa — no con hambre, sino con curiosidad. No ataca. Pero te vigila cada segundo.",
+      "zone": 4
+    },
+    {
+      "id": 62,
+      "name": "Lago de Ácido",
+      "description": "El líquido verde burbujea y disuelve. Los huesos en la orilla se deshacen lentamente. El único cruce es un puente hecho de los huesos de algo enorme — ¿un dragón? ¿Un dios?",
+      "zone": 4
+    },
+    {
+      "id": 63,
+      "name": "Cofre del Duende",
+      "description": "El cofre se abre con un clic satisfactorio. Dentro, sobre terciopelo raído, descansa una llave de plata que brilla con luz propia. Los guardias duendes asienten — es tuya. Te la ganaste con la corona.",
+      "zone": 4
+    },
+    {
+      "id": 64,
+      "name": "Catacumbas",
+      "description": "Los huesos están ordenados con cuidado artístico — cráneos formando flores, fémures en espiral. Alguien pasó décadas aquí abajo decorando con la muerte. Las velas están encendidas. ¿Quién las enciende?",
+      "zone": 4
+    },
+    {
+      "id": 65,
+      "name": "Camino Oculto",
+      "description": "El Ojo de Cristal te muestra lo que estaba oculto. Un camino brillante se materializa entre árboles que antes parecían impenetrables. Runas en el suelo te guían — alguien dejó este sendero para quien pudiera verlo.",
+      "zone": 4
+    },
+    {
+      "id": 66,
+      "name": "Torre de los Susurros",
+      "description": "Los susurros te dicen cosas. Tu nombre. Secretos que nadie debería saber. Promesas. Mentiras. Si escuchas demasiado, olvidarás por qué viniste. Sigue adelante. No les hagas caso.",
+      "zone": 4
+    },
+    {
+      "id": 67,
+      "name": "Bosque Quemado",
+      "description": "El fuego consumió todo hace mucho. Los árboles son carbón. Entre ellos, los restos de una aldea — muros ennegrecidos, una campana derretida, un pozo colapsado. ¿Quién vivía aquí? ¿Quién los quemó?",
+      "zone": 4
+    },
+    {
+      "id": 68,
+      "name": "Altar Oscuro",
+      "description": "El altar absorbe la luz. Las velas negras queman oscuridad en vez de luz. El manto sobre el altar está hecho de sombras cosidas — se mueve, respira. Lo tomas y la oscuridad te abraza como un viejo amigo.",
+      "zone": 4
+    },
+    {
+      "id": 69,
+      "name": "Valle de Cristal",
+      "description": "La belleza aquí es letal. Todo es cristal — delicado, afilado, reflejando un millón de versiones de ti. Los animales atrapados en cristal tienen expresiones de paz.",
+      "zone": 4
+    },
+    {
+      "id": 70,
+      "name": "Encrucijada Maldita",
+      "description": "Las señales mienten — lo sabes porque una apunta al cielo y dice 'sur'. El gato de tres ojos te mira desde el poste. 'Todos se pierden aquí', dice sin mover la boca. 'Pero tú hueles a destino.'",
+      "zone": 4
+    },
+    {
+      "id": 71,
+      "name": "Pantano Final",
+      "description": "Los fuegos rojos te llaman en la dirección equivocada. Las caras en los árboles lloran savia negra como petróleo. Las lápidas hundidas son tu camino — pisas sobre los muertos para avanzar.",
+      "zone": 5
+    },
+    {
+      "id": 72,
+      "name": "Sello del Viento",
+      "description": "La pluma del búho negro se levanta de tu mano y vuela hacia el sello. El viento la acepta — los grabados brillan y el muro de aire se disipa como un suspiro. El camino se abre en silencio.",
+      "zone": 5
+    },
+    {
+      "id": 73,
+      "name": "Campo de Batalla Antiguo",
+      "description": "La batalla terminó hace siglos pero nadie limpió. Los esqueletos siguen luchando — congelados en su último momento. Los estandartes muestran un sol negro.",
+      "zone": 5
+    },
+    {
+      "id": 74,
+      "name": "Ciénaga de los Olvidados",
+      "description": "Los rostros en el agua no son fantasmas — son recuerdos olvidados que tomaron forma. Te miran con ojos vacíos, pidiendo que los recuerdes. Pero no conoces a ninguno.",
+      "zone": 5
+    },
+    {
+      "id": 75,
+      "name": "Refugio del Hada",
+      "description": "El hada te esperaba. Sus alas brillan restauradas, su piel es dorada. 'Me salvaste', dice. 'Toma esto — la Llave de Plata abrirá la reja que protege la torre. Ve, rescátala.'",
+      "zone": 5
+    },
+    {
+      "id": 76,
+      "name": "Murallas Derruidas",
+      "description": "Estas murallas protegían algo. O encerraban algo. Las piedras son demasiado grandes para humanos normales — gigantes las construyeron. Ahora solo son ruinas.",
+      "zone": 5
+    },
+    {
+      "id": 77,
+      "name": "Puerta de Hierro",
+      "description": "La puerta fue golpeada desde dentro. Las marcas de puños — ¿o garras? — en el hierro hablan de desesperación. La sangre seca en los bordes es vieja. Lo que estaba detrás ya salió.",
+      "zone": 5
+    },
+    {
+      "id": 78,
+      "name": "Forja Abandonada",
+      "description": "El herrero se fue pero su obra maestra quedó. La espada de cristal parece imposible — transparente, frágil en apariencia, pero al tocarla descubres que es más dura que el acero.",
+      "zone": 5
+    },
+    {
+      "id": 79,
+      "name": "Patio de Armas",
+      "description": "El castillo entrenaba soldados aquí. Los maniquíes están cortados, quemados, destruidos. Las armas en los estantes son inútiles — oxidadas hasta el alma.",
+      "zone": 5
+    },
+    {
+      "id": 80,
+      "name": "Salón del Trono Oscuro",
+      "description": "Este fue el corazón del poder. El trono de hierro y hueso domina la sala — vacío pero no inofensivo. Las sombras aquí tienen voluntad propia.",
+      "zone": 5
+    },
+    {
+      "id": 81,
+      "name": "Jardín de Estatuas",
+      "description": "Estas no son estatuas — son personas. Lo sabes por los detalles: el botón a medio abrir, la página del libro doblada. La maldición los atrapó en un instante.",
+      "zone": 5
+    },
+    {
+      "id": 82,
+      "name": "Pozo de los Lamentos",
+      "description": "El pozo llora. Literalmente — lágrimas caen por sus paredes internas. Los rostros en el agua te miran suplicantes. El frasco junto al brocal es la invitación.",
+      "zone": 5
+    },
+    {
+      "id": 83,
+      "name": "Pasillo de los Espejos",
+      "description": "Los espejos mienten. En uno eres anciano. En otro, eres huesos. En otro, no existes. Al fondo del pasillo, tu reflejo verdadero está fuera del espejo, mirándote.",
+      "zone": 5
+    },
+    {
+      "id": 84,
+      "name": "Biblioteca Quemada",
+      "description": "Miles de libros murieron aquí. Pero algunos resistieron — protegidos por magia o terquedad. Cuentan la historia del Señor de las Sombras. De cómo era humano. De cómo dejó de serlo.",
+      "zone": 5
+    },
+    {
+      "id": 85,
+      "name": "Reja de la Torre",
+      "description": "La Llave de Plata encaja perfectamente. La reja se abre con un sonido musical — como una nota de arpa. Las gárgolas cierran los ojos, como dándote la bienvenida.",
+      "zone": 5
+    },
+    {
+      "id": 86,
+      "name": "Escaleras de la Torre",
+      "description": "Las escaleras suben en espiral eterna. Los grabados en la piedra fueron hechos con uñas — mensajes de prisioneros: 'No subas', 'Él te espera', 'La princesa llora'.",
+      "zone": 6
+    },
+    {
+      "id": 87,
+      "name": "Sala de las Cadenas",
+      "description": "Los prisioneros anteriores siguen aquí — encadenados a la pared, reducidos a huesos. Sus grilletes vacíos se balancean con el viento. ¿Cuántos vinieron a rescatar a alguien y terminaron encadenados?",
+      "zone": 6
+    },
+    {
+      "id": 88,
+      "name": "Laboratorio del Señor",
+      "description": "Aquí el Señor de las Sombras experimentaba. Los frascos contienen cosas que se mueven. Los libros describen cómo extraer la luz de un alma.",
+      "zone": 6
+    },
+    {
+      "id": 89,
+      "name": "Cámara de Tortura",
+      "description": "Cada instrumento cuenta una historia de dolor. La silla todavía tiene correas tensas, como esperando al siguiente. La ventana muestra la libertad imposiblemente lejos abajo.",
+      "zone": 6
+    },
+    {
+      "id": 90,
+      "name": "Corredor de los Centinelas",
+      "description": "El Manto de Sombras te envuelve en oscuridad. Los Centinelas miran a través de ti — eres invisible, eres sombra, eres nada. Pasas entre ellos como un fantasma.",
+      "zone": 6
+    },
+    {
+      "id": 91,
+      "name": "Habitación de los Retratos",
+      "description": "Los retratos cuentan la historia del Señor de las Sombras. Fue humano. Fue joven. Fue hermoso. Cada cuadro lo muestra más viejo, más oscuro, hasta que solo quedan ojos en la negrura.",
+      "zone": 6
+    },
+    {
+      "id": 92,
+      "name": "Balcón de la Tormenta",
+      "description": "La tormenta nunca termina aquí. Los relámpagos iluminan el bosque entero — ves todo tu camino, cada locación que cruzaste, diminuta abajo. El viento empuja con rabia. La torre sigue arriba. Estás cerca.",
+      "zone": 6
+    },
+    {
+      "id": 93,
+      "name": "Escalera Final",
+      "description": "Estos son los últimos escalones. La torre late como si tuviera corazón. La sangre en los escalones es de otros que llegaron hasta aquí. La puerta arriba tiene un ojo tallado que te sigue.",
+      "zone": 6
+    },
+    {
+      "id": 94,
+      "name": "Antecámara del Señor",
+      "description": "El suelo refleja estrellas que no existen. Los pilares son humo que puedes tocar — frío como hielo. Las runas en el suelo pulsan como un corazón. Dos puertas: una lleva a él. La otra, a ella.",
+      "zone": 6
+    },
+    {
+      "id": 95,
+      "name": "Capilla Corrompida",
+      "description": "Esto fue un lugar sagrado antes de que él lo corrompiera. Los ángeles de los vitrales perdieron sus caras. El libro en el altar cuenta la profecía: 'Solo las lágrimas de los olvidados y el cristal de la verdad romperán su dominio.'",
+      "zone": 6
+    },
+    {
+      "id": 96,
+      "name": "Cámara del Señor de las Sombras",
+      "description": "'Viniste', dice sin boca. 'Todos vienen. Ninguno se va.' Los tentáculos de sombra se extienden hacia ti. Pero no ataca — te estudia. Te deja pasar. Quiere que veas lo que hizo.",
+      "zone": 6
+    },
+    {
+      "id": 97,
+      "name": "Pasaje Secreto",
+      "description": "Las paredes de cristal muestran memorias. El Señor fue un príncipe que amó a Elara. Cuando ella lo rechazó, vendió su alma al bosque. La capturó para que nadie más la tuviera. No es maldad pura — es amor podrido.",
+      "zone": 6
+    },
+    {
+      "id": 98,
+      "name": "Jardín Superior",
+      "description": "El Señor construyó este jardín para ella. Las flores son hermosas pero tristes — como un regalo de alguien que no entiende el amor. El columpio se mece solo, esperándola.",
+      "zone": 6
+    },
+    {
+      "id": 99,
+      "name": "Puerta Final",
+      "description": "La puerta es blanca. Después de tanta oscuridad, el blanco duele a los ojos. Detrás escuchas un llanto suave — Elara. La cerradura no necesita llave — se abre con un toque.",
+      "zone": 6
+    },
+    {
+      "id": 100,
+      "name": "Prisión de Elara",
+      "description": "Cortas las cadenas con la Espada de Cristal. Viertes las Lágrimas de los Olvidados sobre sus labios. Elara parpadea — sus ojos te encuentran. 'Viniste', susurra. La tormenta se detiene. Has ganado.",
+      "zone": 6
+    },
+    {
+      "id": 101,
+      "name": "Entrada de la Aldea Quemada",
+      "description": "Un arco de piedra calcinada marca la entrada. El cartel está derretido — solo queda una 'A' legible. Más allá, los cimientos de casas se dibujan entre la ceniza como cicatrices en la tierra.",
+      "zone": 7
+    },
+    {
+      "id": 102,
+      "name": "Plaza del Mercado",
+      "description": "Los fantasmas repiten su rutina de mercado. Una mujer paga con monedas invisibles. Un niño corre con pan que no existe. No te ven. Están atrapados en el último día antes del fuego.",
+      "zone": 7
+    },
+    {
+      "id": 103,
+      "name": "Casa del Herrero",
+      "description": "La forja está fría pero el yunque brilla con un calor antiguo. Herramientas derretidas cuelgan de ganchos. Un fantasma corpulento martillea metal invisible — cada golpe resuena aunque nada es real.",
+      "zone": 7
+    },
+    {
+      "id": 104,
+      "name": "Escuela Abandonada",
+      "description": "Pupitres diminutos cubiertos de ceniza. En las paredes, dibujos de niños: un príncipe con corona, una princesa con flores, un bosque verde y feliz. El último dibujo muestra fuego.",
+      "zone": 7
+    },
+    {
+      "id": 105,
+      "name": "Iglesia Sin Techo",
+      "description": "El techo se consumió pero las paredes resisten. Los vitrales rotos muestran al príncipe como un héroe — matando dragones, salvando aldeanos. La versión de la historia que él quería contar.",
+      "zone": 7
+    },
+    {
+      "id": 106,
+      "name": "Casa de Elara",
+      "description": "Una casa modesta con un jardín muerto. La puerta está abierta. Dentro, un vestido blanco cuelga intacto — lo único que no ardió. Fotos borradas en las paredes. Un florero con flores secas de siglos.",
+      "zone": 7
+    },
+    {
+      "id": 107,
+      "name": "Pozo de los Deseos",
+      "description": "Un pozo de piedra con monedas derretidas y fusionadas en el fondo. Los deseos de los aldeanos murieron con ellos. El pozo susurra: 'Tira algo... te concederé un deseo...' No confíes.",
+      "zone": 7
+    },
+    {
+      "id": 108,
+      "name": "Torre del Reloj",
+      "description": "El reloj se detuvo a las 3:33. Los engranajes están fundidos. Desde arriba ves toda la aldea — el patrón de destrucción muestra que el fuego empezó desde un solo punto: la plaza.",
+      "zone": 7
+    },
+    {
+      "id": 109,
+      "name": "Cementerio de la Aldea",
+      "description": "Tumbas con nombres borrados por el tiempo. Flores de ceniza adornan cada lápida. Un fantasma anciano sentado en una tumba te mira con ojos culpables. Este sí te ve.",
+      "zone": 7
+    },
+    {
+      "id": 110,
+      "name": "Sótano Secreto",
+      "description": "Bajo la casa de Elara, una habitación secreta con un escritorio. Un diario abierto, la tinta aún legible después de siglos. Las palabras de Elara cuentan una verdad que nadie más conoce.",
+      "zone": 7
+    },
+    {
+      "id": 111,
+      "name": "Boca de la Mina",
+      "description": "Rieles oxidados se pierden en la oscuridad. Vagonetas volcadas con cristales incrustados. Un cartel de hueso dice: 'Minas de los Gigantes — Prohibido el paso'. El aire vibra con una frecuencia que sientes en los dientes.",
+      "zone": 8
+    },
+    {
+      "id": 112,
+      "name": "Galería Principal",
+      "description": "Vetas de cristal recorren las paredes como venas luminosas. Cada paso produce un eco musical. Los cristales atrapan luz de algún lugar — no hay antorchas pero puedes ver. Hermoso y perturbador.",
+      "zone": 8
+    },
+    {
+      "id": 113,
+      "name": "Caverna del Eco",
+      "description": "Cada sonido se amplifica mil veces. Tu respiración suena como un huracán. Los cristales en el techo vibran con cada frecuencia. Un lugar peligroso para hacer ruido. Silencio absoluto recomendado.",
+      "zone": 8
+    },
+    {
+      "id": 114,
+      "name": "Lago Subterráneo",
+      "description": "Agua cristalina tan pura que parece invisible. Peces de cristal nadan dejando estelas de luz. En un islote diminuto, un cofre brilla bajo el agua. La belleza aquí es tan intensa que duele.",
+      "zone": 8
+    },
+    {
+      "id": 115,
+      "name": "Puente de Cristal",
+      "description": "Un puente completamente transparente cruza un abismo. Puedes ver kilómetros de caída a través del suelo que pisas. Es cristal — no se romperá. Probablemente. Cada paso es un acto de fe visual.",
+      "zone": 8
+    },
+    {
+      "id": 116,
+      "name": "Nido de Gusanos de Cristal",
+      "description": "Criaturas traslúcidas del tamaño de un brazo mastican la roca, convirtiendo piedra en cristal. Sus cuerpos brillan con lo que digieren. Son más curiosos que hostiles — si no les molestas.",
+      "zone": 8
+    },
+    {
+      "id": 117,
+      "name": "Cámara del Gigante",
+      "description": "El esqueleto de un gigante yace contra la pared, su pico de minero aún en la mano. Mide diez metros. En las paredes, tallados de gigantes trabajando felices. Este murió solo, el último de su especie.",
+      "zone": 8
+    },
+    {
+      "id": 118,
+      "name": "Forja de Cristal",
+      "description": "Un horno que moldea cristal con calor. Aún funciona — el fuego es de un color imposible, entre rosa y dorado. Moldes de espadas, escudos, coronas. Los gigantes eran artesanos, no guerreros.",
+      "zone": 8
+    },
+    {
+      "id": 119,
+      "name": "Sala del Trono de Cristal",
+      "description": "Un trono tallado en un solo cristal enorme. La corona del rey gigante descansa en el asiento — del tamaño perfecto para una cabeza humana. Como si supieran que alguien vendría a tomarla.",
+      "zone": 8
+    },
+    {
+      "id": 120,
+      "name": "Veta Madre",
+      "description": "Un cristal del tamaño de una casa, pulsante con luz propia. El corazón de la montaña. Sientes su latido en el pecho. Es antiguo — más viejo que el bosque, más viejo que los gigantes. Es la semilla de todo.",
+      "zone": 8
+    },
+    {
+      "id": 121,
+      "name": "Fondo del Pozo",
+      "description": "Caes en agua helada. La cadena del pozo cuelga arriba como un hilo de plata. Una corriente suave te empuja hacia un túnel lateral. Las paredes del pozo se abren a un sistema de cuevas que nadie ha visto en siglos.",
+      "zone": 9
+    },
+    {
+      "id": 122,
+      "name": "Playa Subterránea",
+      "description": "Arena negra como obsidiana pulida. Hongos del tamaño de sombrillas brillan con luz azul. Una balsa de madera atada a una estalagmita espera pacientemente. El río fluye tranquilo hacia la oscuridad.",
+      "zone": 9
+    },
+    {
+      "id": 123,
+      "name": "Rápidos Oscuros",
+      "description": "La corriente se vuelve violenta. El agua negra ruge entre rocas afiladas. Sin una balsa, serías arrastrado como una hoja. Con ella, es como montar un caballo salvaje de agua y espuma oscura.",
+      "zone": 9
+    },
+    {
+      "id": 124,
+      "name": "Gruta de los Murciélagos",
+      "description": "Miles de murciélagos cuelgan del techo como un manto vivo. Algunos abren un ojo al sentirte. El guano cubre todo. Un pasaje estrecho entre la roca se abre al fondo — demasiado pequeño para los murciélagos.",
+      "zone": 9
+    },
+    {
+      "id": 125,
+      "name": "Cascada Interior",
+      "description": "Agua cae desde cincuenta metros arriba con un rugido ensordecedor. Detrás de la cortina de agua, una cueva seca con grabados antiguos. Los grabados muestran una ruta — un mapa del río completo.",
+      "zone": 9
+    },
+    {
+      "id": 126,
+      "name": "Lago Profundo",
+      "description": "El río se ensancha en un lago subterráneo tan claro que ves el fondo a cien metros. Allá abajo, algo brilla — ¿oro? ¿cristal? ¿un recuerdo? No puedes alcanzarlo sin nadar hacia las profundidades.",
+      "zone": 9
+    },
+    {
+      "id": 127,
+      "name": "Isla de Huesos",
+      "description": "Una isla formada enteramente por huesos de prisioneros que no lograron escapar. Cráneos apilados como ladrillos. Entre los huesos, mensajes tallados: nombres, fechas, últimas palabras. Cientos de historias que terminaron aquí.",
+      "zone": 9
+    },
+    {
+      "id": 128,
+      "name": "Compuertas Antiguas",
+      "description": "Un mecanismo de piedra enorme controla el flujo del río. Engranajes de roca tallada, palancas de hueso de gigante. Glifos brillan en las compuertas — el mecanismo aún funciona, solo necesita que alguien lo opere.",
+      "zone": 9
+    },
+    {
+      "id": 129,
+      "name": "Salida al Bosque",
+      "description": "La luz natural golpea tus ojos después de la oscuridad. El río te escupe en una poza tranquila rodeada de helechos. Reconoces el lugar — estás cerca del Precipicio. Un atajo que ahorra horas de camino.",
+      "zone": 9
+    },
+    {
+      "id": 130,
+      "name": "Cámara del Prisionero",
+      "description": "Una celda excavada en la roca con marcas de días contados — miles. En la pared, una carta tallada con un clavo: palabras de amor desesperado de un príncipe joven, prisionero de su propio padre, escribiendo a Elara.",
+      "zone": 9
+    },
+    {
+      "id": 131,
+      "name": "Entrada al Sueño",
+      "description": "Cruzas un espejo que no refleja — y el mundo cambia. Los colores se invierten: el cielo es verde, la tierra es azul. Todo flota ligeramente. Estás dentro de un sueño. El sueño de Elara.",
+      "zone": 10
+    },
+    {
+      "id": 132,
+      "name": "Campo de Flores Parlantes",
+      "description": "Flores enormes de colores imposibles susurran recuerdos de Elara. 'Su primera risa...' 'El día que bailó...' 'Cuando él la vio por primera vez...' Cada flor guarda un momento feliz robado.",
+      "zone": 10
+    },
+    {
+      "id": 133,
+      "name": "Cielo Caminable",
+      "description": "Caminas sobre nubes sólidas como algodón. Debajo ves el bosque entero como un mapa — cada locación que visitaste, diminuta. Arriba, estrellas que parpadean como ojos. La perspectiva de un dios dormido.",
+      "zone": 10
+    },
+    {
+      "id": 134,
+      "name": "Casa de la Infancia",
+      "description": "La casa de Elara cuando era niña. Todo es perfecto: jardín florecido, olor a pan, risas infantiles. Pero las esquinas se difuminan. Es un recuerdo, no un lugar. En una mesa, algo brilla con calidez real.",
+      "zone": 10
+    },
+    {
+      "id": 135,
+      "name": "Baile Eterno",
+      "description": "Un salón de baile donde figuras sin rostro danzan un vals infinito. La música te jala — quiere que te unas. Que bailes para siempre. Que olvides por qué viniste. La trampa más hermosa del Señor.",
+      "zone": 10
+    },
+    {
+      "id": 136,
+      "name": "Espejo del Tiempo",
+      "description": "Un espejo gigante que no muestra tu reflejo — muestra tu futuro si no rescatas a Elara. Te ves viejo, solo, el bosque consumiéndote. Te ves convirtiéndote en sombra. Motivación para seguir.",
+      "zone": 10
+    },
+    {
+      "id": 137,
+      "name": "Biblioteca Infinita",
+      "description": "Estantes que se extienden hasta el infinito. Cada libro contiene un posible final para esta historia. Algunos felices, muchos trágicos. Un bibliotecario sin rostro ordena destinos como si fueran ficción.",
+      "zone": 10
+    },
+    {
+      "id": 138,
+      "name": "Jardín Marchito",
+      "description": "Aquí las pesadillas de Elara se manifiestan. Flores marchitas con dientes. Árboles que susurran insultos. El cielo es rojo sangre. Todo lo que ella teme tiene forma aquí. Su dolor hecho paisaje.",
+      "zone": 10
+    },
+    {
+      "id": 139,
+      "name": "Trono de Espinas Soñado",
+      "description": "Elara — una versión onírica de ella — sentada en un trono de espinas. Ojos abiertos pero no te ve. 'No quiero despertar', murmura. 'Aquí no duele.' La prisión que eligió ella misma dentro del sueño.",
+      "zone": 10
+    },
+    {
+      "id": 140,
+      "name": "Corazón del Sueño",
+      "description": "Un cristal flotante que pulsa como un corazón. Es lo que mantiene el sueño vivo. Si lo tomas, el sueño se debilita — las cadenas de Elara en el mundo real se aflojan. El poder de romper desde dentro.",
+      "zone": 10
+    },
+    {
+      "id": 141,
+      "name": "Puerta de los Gigantes",
+      "description": "Una puerta de diez metros de alto, abierta de par en par. Tallados en la piedra cuentan el origen: gigantes plantando árboles diminutos que crecieron hasta ser un bosque. Ellos lo crearon. Todo empezó aquí.",
+      "zone": 11
+    },
+    {
+      "id": 142,
+      "name": "Avenida de Colosos",
+      "description": "Estatuas de gigantes de piedra flanquean el camino como guardianes silenciosos. Cada uno tiene una expresión distinta: alegría, tristeza, furia, paz. Emociones del tamaño de montañas congeladas en roca.",
+      "zone": 11
+    },
+    {
+      "id": 143,
+      "name": "Gran Salón",
+      "description": "Una mesa con platos del tamaño de bañeras. Comida petrificada en los platos — un banquete interrumpido hace milenios. Sillas volcadas. Se fueron con prisa. O fueron obligados a irse.",
+      "zone": 11
+    },
+    {
+      "id": 144,
+      "name": "Observatorio",
+      "description": "Un telescopio gigante apunta al cielo a través de un agujero en la bóveda. Muestra constelaciones que no existen — el cielo de otro mundo. Los gigantes no eran de aquí. Vinieron de las estrellas.",
+      "zone": 11
+    },
+    {
+      "id": 145,
+      "name": "Armería",
+      "description": "Armas del tamaño de árboles en soportes. Espadas, hachas, martillos — todos enormes. Pero una daga gigante es del tamaño perfecto de una espada humana. Fue hecha para alguien pequeño. Para ti.",
+      "zone": 11
+    },
+    {
+      "id": 146,
+      "name": "Dormitorios",
+      "description": "Gigantes dormidos. Tres de ellos, cubiertos de musgo de siglos. Respiran — lento, profundo, como la tierra misma. No están muertos. Esperan. Si haces ruido, uno podría despertar.",
+      "zone": 11
+    },
+    {
+      "id": 147,
+      "name": "Jardín Interior",
+      "description": "El bosque original antes de la maldición. Aquí dentro es verde, luminoso, lleno de vida. Mariposas doradas. Flores que huelen a esperanza. Un contraste brutal con el exterior. Así era todo antes.",
+      "zone": 11
+    },
+    {
+      "id": 148,
+      "name": "Sala del Consejo",
+      "description": "Grabados en las paredes explican todo: los gigantes plantaron el bosque como protección para el mundo. El príncipe corrompió su creación. El consejo decidió dormir hasta que alguien arreglara las cosas.",
+      "zone": 11
+    },
+    {
+      "id": 149,
+      "name": "Corazón de Piedra",
+      "description": "Un cristal enorme incrustado en la roca — el gemelo del de las minas. Este mantiene el bosque vivo, incluso corrupto. Sin él, todo moriría. No puedes tocarlo. Solo entender su propósito.",
+      "zone": 11
+    },
+    {
+      "id": 150,
+      "name": "Cima de la Fortaleza",
+      "description": "El punto más alto del mundo. Ves todo: el bosque, la torre, el camino que recorriste. Las nubes están al alcance de la mano. Un lugar para entender la magnitud de lo que hiciste — o lo que falta por hacer.",
+      "zone": 11
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Llave Oxidada",
+      "emoji": "🔑",
+      "description": "Una llave vieja cubierta de óxido. Abre la Cripta Hundida.",
+      "sceneId": 5
+    },
+    {
+      "id": 3,
+      "name": "Amuleto de Hueso",
+      "emoji": "💀",
+      "description": "Un amuleto tallado en hueso que protege contra espíritus.",
+      "sceneId": 18
+    },
+    {
+      "id": 4,
+      "name": "Cuerda de Raíces",
+      "emoji": "🪢",
+      "description": "Una cuerda fuerte trenzada con raíces secas. Soporta tu peso.",
+      "sceneId": 24
+    },
+    {
+      "id": 5,
+      "name": "Espejo Roto",
+      "emoji": "🪞",
+      "description": "Un fragmento de espejo que refleja cosas que no deberían verse.",
+      "sceneId": 29
+    },
+    {
+      "id": 6,
+      "name": "Flauta de Hueso",
+      "emoji": "🎵",
+      "description": "Una flauta tallada en hueso que toca melodías antiguas.",
+      "sceneId": 33
+    },
+    {
+      "id": 7,
+      "name": "Sangre de Luna",
+      "emoji": "🩸",
+      "description": "Un líquido rojo que pulsa con vida propia.",
+      "sceneId": 38
+    },
+    {
+      "id": 8,
+      "name": "Corona de Espinas",
+      "emoji": "👑",
+      "description": "Una corona manchada de sangre antigua. Pesa más de lo que debería.",
+      "sceneId": 42
+    },
+    {
+      "id": 9,
+      "name": "Ojo de Cristal",
+      "emoji": "👁️",
+      "description": "Un ojo de cristal que revela caminos ocultos.",
+      "sceneId": 48
+    },
+    {
+      "id": 10,
+      "name": "Pluma del Búho Negro",
+      "emoji": "🪶",
+      "description": "Una pluma oscura que vibra con poder del viento.",
+      "sceneId": 53
+    },
+    {
+      "id": 11,
+      "name": "Raíz de Mandrágora",
+      "emoji": "🌿",
+      "description": "Una raíz con forma humana que gritó al ser arrancada.",
+      "sceneId": 58
+    },
+    {
+      "id": 12,
+      "name": "Llave de Plata",
+      "emoji": "🔑",
+      "description": "Una llave de plata pura que brilla con luz propia.",
+      "sceneId": 63
+    },
+    {
+      "id": 13,
+      "name": "Manto de Sombras",
+      "emoji": "🧥",
+      "description": "Un manto hecho de oscuridad materializada. Te vuelve invisible.",
+      "sceneId": 68
+    },
+    {
+      "id": 14,
+      "name": "Espada de Cristal",
+      "emoji": "⚔️",
+      "description": "Transparente como cristal, dura como acero. Corta la oscuridad.",
+      "sceneId": 78
+    },
+    {
+      "id": 15,
+      "name": "Frasco de Lágrimas",
+      "emoji": "💧",
+      "description": "Lágrimas de los olvidados. Despiertan almas dormidas.",
+      "sceneId": 82
+    },
+    {
+      "id": 16,
+      "name": "Bolsa de Oro",
+      "emoji": "💰",
+      "description": "Una bolsa de cuero llena de monedas de oro antiguas. Alguien la valorará.",
+      "sceneId": 30
+    },
+    {
+      "id": 17,
+      "name": "Diario de Elara",
+      "emoji": "📖",
+      "description": "El diario de Elara. Sus palabras revelan que amaba al príncipe pero su padre la obligó a rechazarlo.",
+      "sceneId": 110
+    },
+    {
+      "id": 18,
+      "name": "Medalla del Herrero",
+      "emoji": "🏅",
+      "description": "Una medalla de bronce con el símbolo de un martillo. El herrero la forjó con orgullo.",
+      "sceneId": 103
+    },
+    {
+      "id": 19,
+      "name": "Corona de Cristal",
+      "emoji": "👑",
+      "description": "Una corona tallada en cristal puro. Brilla con luz interna. Protege a quien la porta de un destino fatal... una vez.",
+      "sceneId": 119
+    },
+    {
+      "id": 20,
+      "name": "Pico del Gigante",
+      "emoji": "⛏️",
+      "description": "Un pico de minero enorme pero que pesa menos de lo esperado. Puede romper cualquier pared de roca.",
+      "sceneId": 117
+    },
+    {
+      "id": 21,
+      "name": "Balsa",
+      "emoji": "🛶",
+      "description": "Una balsa de madera resistente atada con cuerdas de raíz. Permite navegar el río subterráneo sin peligro.",
+      "sceneId": 122
+    },
+    {
+      "id": 22,
+      "name": "Mensaje del Príncipe",
+      "emoji": "💌",
+      "description": "Una carta de amor tallada en piedra. El príncipe era prisionero de su padre antes de volverse el Señor de las Sombras. Otra capa de tragedia.",
+      "sceneId": 130
+    },
+    {
+      "id": 23,
+      "name": "Cristal del Despertar",
+      "emoji": "💎",
+      "description": "El corazón del sueño de Elara. Su poder puede despertar un alma dormida — alternativa a las Lágrimas.",
+      "sceneId": 140
+    },
+    {
+      "id": 24,
+      "name": "Memoria Feliz",
+      "emoji": "✨",
+      "description": "Un recuerdo cálido materializado de la infancia de Elara. Si lo llevas al rescate, ella sonreirá al despertar.",
+      "sceneId": 134
+    },
+    {
+      "id": 25,
+      "name": "Daga de Gigante",
+      "emoji": "🗡️",
+      "description": "Una daga gigante del tamaño de una espada humana. Igual de poderosa que la Espada de Cristal — corta la oscuridad.",
+      "sceneId": 145
+    },
+    {
+      "id": 26,
+      "name": "Semilla Dorada",
+      "emoji": "🌱",
+      "description": "Una semilla del jardín original de los gigantes. Si la plantas en el final del Perdón, el bosque florece al instante.",
+      "sceneId": 147
+    }
+  ],
+  "npcs": [
+    {
+      "id": 1,
+      "name": "Hada de Alas Rotas",
+      "dialogue": "Llevo siglos esperando a alguien. Toma este farol — lo necesitarás donde la luz muere.",
+      "sceneId": 12,
+      "givesItemId": 2,
+      "needsItemId": null
+    },
+    {
+      "id": 2,
+      "name": "Duende Dormido",
+      "dialogue": "Zzz... zzz... (ronca profundamente. Una luz azul podría despertarlo...)",
+      "sceneId": 25,
+      "givesItemId": null,
+      "needsItemId": 2
+    },
+    {
+      "id": 3,
+      "name": "Duende del Laberinto",
+      "dialogue": "Te perdiste, ¿eh? Todos se pierden. Yo conozco todos los caminos... por un precio. Dame oro y te diré dónde hallar lo que necesitas.",
+      "sceneId": 39,
+      "givesItemId": null,
+      "needsItemId": 16
+    },
+    {
+      "id": 4,
+      "name": "Hada Herida",
+      "dialogue": "La raíz de mandrágora... solo eso me salvaría. Si me la traes, te daré algo que necesitas.",
+      "sceneId": 57,
+      "givesItemId": 12,
+      "needsItemId": 11
+    },
+    {
+      "id": 5,
+      "name": "Rey Duende",
+      "dialogue": "¿Qué eres tú para presentarte sin tributo ante un rey?",
+      "sceneId": 60,
+      "givesItemId": null,
+      "needsItemId": 8
+    },
+    {
+      "id": 6,
+      "name": "Gato de Tres Ojos",
+      "dialogue": "Todos se pierden aquí. Pero tú hueles a destino. Pregúntame y te guiaré... gratis, por esta vez.",
+      "sceneId": 70,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 7,
+      "name": "Señor de las Sombras",
+      "dialogue": "Viniste. Todos vienen. Ninguno se va. Pero tú... tú eres diferente. Ve. Mira lo que hice por amor.",
+      "sceneId": 96,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 8,
+      "name": "Fantasma del Herrero",
+      "dialogue": "Yo forjé esa espada para él... para el príncipe. Era un buen muchacho antes de que la oscuridad lo tomara. Toma mi medalla — es lo único real que me queda.",
+      "sceneId": 103,
+      "givesItemId": 18,
+      "needsItemId": null
+    },
+    {
+      "id": 9,
+      "name": "Fantasma de la Maestra",
+      "dialogue": "Los niños dibujaban al príncipe como un héroe... hasta el último día. Debajo de la casa de Elara hay un sótano. Su padre escondió la verdad ahí.",
+      "sceneId": 104,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 10,
+      "name": "Fantasma del Padre de Elara",
+      "dialogue": "Fui yo... yo la obligué a rechazarlo. Creí que un príncipe oscuro no era digno de ella. Mira lo que causé. Toma — la llave del sótano. Lee lo que ella escribió.",
+      "sceneId": 109,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 11,
+      "name": "Pozo Susurrante",
+      "dialogue": "Tira algo de valor... te concederé un deseo... solo necesito algo brillante...",
+      "sceneId": 107,
+      "givesItemId": null,
+      "needsItemId": 16
+    },
+    {
+      "id": 12,
+      "name": "Espíritu del Gigante",
+      "dialogue": "Fuimos los primeros... plantamos el bosque como jardín. El príncipe lo corrompió con su dolor. Mi pico puede abrir caminos que la oscuridad cerró. Tómalo.",
+      "sceneId": 117,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 13,
+      "name": "Gusano de Cristal Manso",
+      "dialogue": "El gusano más grande te observa con ojos de prisma. No es hostil — inclina su cabeza cristalina como un perro curioso. Si le ofreces algo orgánico, te dejará pasar.",
+      "sceneId": 116,
+      "givesItemId": null,
+      "needsItemId": 11
+    },
+    {
+      "id": 14,
+      "name": "Prisionero Fantasma",
+      "dialogue": "Yo casi escapé... el río me llevó hasta aquí. La salida está al este, pasando las compuertas. Pero los rápidos te matarán sin una balsa. Hay una en la playa negra.",
+      "sceneId": 127,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 15,
+      "name": "Mecanismo Parlante",
+      "dialogue": "Los glifos se iluminan y una voz de piedra resuena: COMPUERTAS OPERATIVAS. DESTINO: BOSQUE EXTERIOR. PRECAUCIÓN: CORRIENTE ACTIVA. ¿ABRIR? Las compuertas se abren solas.",
+      "sceneId": 128,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 16,
+      "name": "Cadenas del Pozo",
+      "dialogue": "Las cadenas vibran invitándote a descender. El pozo es profundo — muy profundo. Abajo se escucha agua corriendo. ¿Bajar?",
+      "sceneId": 82,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 17,
+      "name": "Elara Soñada",
+      "dialogue": "No quiero despertar. Aquí no hay dolor. Aquí él no puede herirme. ¿Por qué quieres sacarme de aquí? ...Pero tus ojos son amables. Quizás afuera no sea tan terrible.",
+      "sceneId": 139,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 18,
+      "name": "Bibliotecario Sin Rostro",
+      "dialogue": "El bibliotecario pasa páginas con dedos de humo. Cada libro es un final posible. Te muestra uno: el final donde la perdonas a ella por no haber luchado. Cierra el libro. Ya decidirás.",
+      "sceneId": 137,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 19,
+      "name": "Gigante Dormido",
+      "dialogue": "El gigante murmura entre sueños con voz de terremoto: El corazón... mantiene todo vivo... no lo toques... solo comprende... cuando el bosque sane... despertaremos...",
+      "sceneId": 146,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 20,
+      "name": "Guardián del Consejo",
+      "dialogue": "Un autómata de piedra cobra vida al acercarte. Solo puedes hacerle una pregunta. Responde: Los gigantes esperan. El bosque puede sanar. Depende de tu elección final. Vuelve a quedar inmóvil.",
+      "sceneId": 148,
+      "givesItemId": null,
+      "needsItemId": null
+    },
+    {
+      "id": 21,
+      "name": "Grieta en la Muralla",
+      "dialogue": "Entre las piedras caídas ves una grieta lo suficientemente grande para pasar. Del otro lado, una construcción inmensa se extiende — la fortaleza original de los gigantes. ¿Entrar?",
+      "sceneId": 76,
+      "givesItemId": null,
+      "needsItemId": null
+    }
+  ],
+  "connections": [
+    {
+      "fromSceneId": 1,
+      "direction": "east",
+      "toSceneId": 3,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 1,
+      "direction": "north",
+      "toSceneId": 2,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 1,
+      "direction": "west",
+      "toSceneId": 4,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 2,
+      "direction": "east",
+      "toSceneId": 7,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 2,
+      "direction": "north",
+      "toSceneId": 6,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 2,
+      "direction": "south",
+      "toSceneId": 1,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 2,
+      "direction": "west",
+      "toSceneId": 5,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 3,
+      "direction": "east",
+      "toSceneId": 9,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 3,
+      "direction": "north",
+      "toSceneId": 8,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 3,
+      "direction": "west",
+      "toSceneId": 1,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 4,
+      "direction": "east",
+      "toSceneId": 1,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 4,
+      "direction": "north",
+      "toSceneId": 5,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 5,
+      "direction": "east",
+      "toSceneId": 2,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 5,
+      "direction": "north",
+      "toSceneId": 10,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 5,
+      "direction": "south",
+      "toSceneId": 4,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 6,
+      "direction": "east",
+      "toSceneId": 12,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 6,
+      "direction": "north",
+      "toSceneId": 11,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 6,
+      "direction": "south",
+      "toSceneId": 2,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 6,
+      "direction": "west",
+      "toSceneId": 10,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 7,
+      "direction": "east",
+      "toSceneId": 8,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 7,
+      "direction": "north",
+      "toSceneId": 13,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 7,
+      "direction": "west",
+      "toSceneId": 2,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 8,
+      "direction": "east",
+      "toSceneId": 9,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 8,
+      "direction": "north",
+      "toSceneId": 14,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 8,
+      "direction": "south",
+      "toSceneId": 3,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 8,
+      "direction": "west",
+      "toSceneId": 7,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 9,
+      "direction": "north",
+      "toSceneId": 15,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 9,
+      "direction": "west",
+      "toSceneId": 3,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 10,
+      "direction": "east",
+      "toSceneId": 6,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 10,
+      "direction": "north",
+      "toSceneId": 16,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 10,
+      "direction": "south",
+      "toSceneId": 5,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 11,
+      "direction": "east",
+      "toSceneId": 18,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 11,
+      "direction": "north",
+      "toSceneId": 17,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 11,
+      "direction": "south",
+      "toSceneId": 6,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 11,
+      "direction": "west",
+      "toSceneId": 16,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 12,
+      "direction": "east",
+      "toSceneId": 19,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 12,
+      "direction": "north",
+      "toSceneId": 18,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 12,
+      "direction": "south",
+      "toSceneId": 6,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 12,
+      "direction": "west",
+      "toSceneId": 11,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 13,
+      "direction": "east",
+      "toSceneId": 14,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 13,
+      "direction": "north",
+      "toSceneId": 20,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 13,
+      "direction": "south",
+      "toSceneId": 7,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 14,
+      "direction": "east",
+      "toSceneId": 15,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 14,
+      "direction": "north",
+      "toSceneId": 21,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 14,
+      "direction": "south",
+      "toSceneId": 8,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 14,
+      "direction": "west",
+      "toSceneId": 13,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 15,
+      "direction": "north",
+      "toSceneId": 22,
+      "requiredItemId": 1,
+      "blockedMessage": "La puerta de hierro está cerrada. Necesitas una llave."
+    },
+    {
+      "fromSceneId": 15,
+      "direction": "south",
+      "toSceneId": 9,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 15,
+      "direction": "west",
+      "toSceneId": 14,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 16,
+      "direction": "east",
+      "toSceneId": 11,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 16,
+      "direction": "north",
+      "toSceneId": 23,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 16,
+      "direction": "south",
+      "toSceneId": 10,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 16,
+      "direction": "west",
+      "toSceneId": 24,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 17,
+      "direction": "east",
+      "toSceneId": 26,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 17,
+      "direction": "north",
+      "toSceneId": 25,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 17,
+      "direction": "south",
+      "toSceneId": 11,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 17,
+      "direction": "west",
+      "toSceneId": 23,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 18,
+      "direction": "east",
+      "toSceneId": 27,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 18,
+      "direction": "north",
+      "toSceneId": 26,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 18,
+      "direction": "south",
+      "toSceneId": 12,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 18,
+      "direction": "west",
+      "toSceneId": 11,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 19,
+      "direction": "east",
+      "toSceneId": 28,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 19,
+      "direction": "north",
+      "toSceneId": 27,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 19,
+      "direction": "west",
+      "toSceneId": 12,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 20,
+      "direction": "east",
+      "toSceneId": 21,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 20,
+      "direction": "north",
+      "toSceneId": 28,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 20,
+      "direction": "south",
+      "toSceneId": 13,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 20,
+      "direction": "west",
+      "toSceneId": 29,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 21,
+      "direction": "east",
+      "toSceneId": 22,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 21,
+      "direction": "north",
+      "toSceneId": 29,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 21,
+      "direction": "south",
+      "toSceneId": 14,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 21,
+      "direction": "west",
+      "toSceneId": 20,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 22,
+      "direction": "north",
+      "toSceneId": 30,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 22,
+      "direction": "south",
+      "toSceneId": 15,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 22,
+      "direction": "west",
+      "toSceneId": 21,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 23,
+      "direction": "east",
+      "toSceneId": 17,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 23,
+      "direction": "north",
+      "toSceneId": 25,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 23,
+      "direction": "south",
+      "toSceneId": 16,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 24,
+      "direction": "east",
+      "toSceneId": 23,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 24,
+      "direction": "north",
+      "toSceneId": 30,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 24,
+      "direction": "south",
+      "toSceneId": 16,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 24,
+      "direction": "west",
+      "toSceneId": 31,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 25,
+      "direction": "east",
+      "toSceneId": 33,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 25,
+      "direction": "north",
+      "toSceneId": 32,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 25,
+      "direction": "south",
+      "toSceneId": 17,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 25,
+      "direction": "west",
+      "toSceneId": 23,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 26,
+      "direction": "east",
+      "toSceneId": 34,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 26,
+      "direction": "north",
+      "toSceneId": 33,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 26,
+      "direction": "south",
+      "toSceneId": 18,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 26,
+      "direction": "west",
+      "toSceneId": 17,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 27,
+      "direction": "east",
+      "toSceneId": 35,
+      "requiredItemId": 3,
+      "blockedMessage": "El espíritu del lago te arrastra hacia el fondo. Necesitas protección."
+    },
+    {
+      "fromSceneId": 27,
+      "direction": "north",
+      "toSceneId": 34,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 27,
+      "direction": "south",
+      "toSceneId": 19,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 27,
+      "direction": "west",
+      "toSceneId": 18,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 28,
+      "direction": "east",
+      "toSceneId": 36,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 28,
+      "direction": "north",
+      "toSceneId": 35,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 28,
+      "direction": "south",
+      "toSceneId": 20,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 28,
+      "direction": "west",
+      "toSceneId": 19,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 29,
+      "direction": "east",
+      "toSceneId": 21,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 29,
+      "direction": "north",
+      "toSceneId": 36,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 29,
+      "direction": "south",
+      "toSceneId": 20,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 29,
+      "direction": "west",
+      "toSceneId": 30,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 30,
+      "direction": "east",
+      "toSceneId": 29,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 30,
+      "direction": "north",
+      "toSceneId": 37,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 30,
+      "direction": "south",
+      "toSceneId": 22,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 30,
+      "direction": "west",
+      "toSceneId": 24,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 31,
+      "direction": "east",
+      "toSceneId": 24,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 31,
+      "direction": "north",
+      "toSceneId": 38,
+      "requiredItemId": 2,
+      "blockedMessage": "La oscuridad es total. No puedes avanzar sin luz."
+    },
+    {
+      "fromSceneId": 32,
+      "direction": "east",
+      "toSceneId": 34,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 32,
+      "direction": "north",
+      "toSceneId": 39,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 32,
+      "direction": "south",
+      "toSceneId": 25,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 32,
+      "direction": "west",
+      "toSceneId": 38,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 33,
+      "direction": "east",
+      "toSceneId": 40,
+      "requiredItemId": 4,
+      "blockedMessage": "El precipicio es demasiado profundo. Necesitas algo para descender."
+    },
+    {
+      "fromSceneId": 33,
+      "direction": "north",
+      "toSceneId": 39,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 33,
+      "direction": "south",
+      "toSceneId": 26,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 33,
+      "direction": "west",
+      "toSceneId": 25,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 34,
+      "direction": "east",
+      "toSceneId": 41,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 34,
+      "direction": "north",
+      "toSceneId": 40,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 34,
+      "direction": "south",
+      "toSceneId": 27,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 34,
+      "direction": "west",
+      "toSceneId": 26,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 35,
+      "direction": "east",
+      "toSceneId": 42,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 35,
+      "direction": "north",
+      "toSceneId": 41,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 35,
+      "direction": "south",
+      "toSceneId": 28,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 35,
+      "direction": "west",
+      "toSceneId": 27,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 36,
+      "direction": "east",
+      "toSceneId": 43,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 36,
+      "direction": "north",
+      "toSceneId": 42,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 36,
+      "direction": "south",
+      "toSceneId": 29,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 36,
+      "direction": "west",
+      "toSceneId": 28,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 37,
+      "direction": "east",
+      "toSceneId": 44,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 37,
+      "direction": "north",
+      "toSceneId": 43,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 37,
+      "direction": "south",
+      "toSceneId": 30,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 37,
+      "direction": "west",
+      "toSceneId": 38,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 38,
+      "direction": "east",
+      "toSceneId": 32,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 38,
+      "direction": "north",
+      "toSceneId": 44,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 38,
+      "direction": "south",
+      "toSceneId": 31,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 38,
+      "direction": "west",
+      "toSceneId": 37,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 39,
+      "direction": "east",
+      "toSceneId": 33,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 39,
+      "direction": "north",
+      "toSceneId": 45,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 39,
+      "direction": "south",
+      "toSceneId": 32,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 39,
+      "direction": "west",
+      "toSceneId": 44,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 40,
+      "direction": "east",
+      "toSceneId": 41,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 40,
+      "direction": "north",
+      "toSceneId": 46,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 40,
+      "direction": "south",
+      "toSceneId": 34,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 40,
+      "direction": "west",
+      "toSceneId": 33,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 41,
+      "direction": "east",
+      "toSceneId": 46,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 41,
+      "direction": "north",
+      "toSceneId": 47,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 41,
+      "direction": "south",
+      "toSceneId": 35,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 41,
+      "direction": "west",
+      "toSceneId": 34,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 42,
+      "direction": "east",
+      "toSceneId": 48,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 42,
+      "direction": "north",
+      "toSceneId": 47,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 42,
+      "direction": "south",
+      "toSceneId": 36,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 42,
+      "direction": "west",
+      "toSceneId": 35,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 43,
+      "direction": "east",
+      "toSceneId": 49,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 43,
+      "direction": "north",
+      "toSceneId": 48,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 43,
+      "direction": "south",
+      "toSceneId": 37,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 43,
+      "direction": "west",
+      "toSceneId": 36,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 44,
+      "direction": "east",
+      "toSceneId": 39,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 44,
+      "direction": "north",
+      "toSceneId": 49,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 44,
+      "direction": "south",
+      "toSceneId": 38,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 44,
+      "direction": "west",
+      "toSceneId": 37,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 45,
+      "direction": "east",
+      "toSceneId": 46,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 45,
+      "direction": "north",
+      "toSceneId": 50,
+      "requiredItemId": 5,
+      "blockedMessage": "La Gorgona te petrifica con su mirada. Necesitas algo para reflejarla."
+    },
+    {
+      "fromSceneId": 45,
+      "direction": "south",
+      "toSceneId": 39,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 46,
+      "direction": "east",
+      "toSceneId": 47,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 46,
+      "direction": "north",
+      "toSceneId": 50,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 46,
+      "direction": "south",
+      "toSceneId": 40,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 46,
+      "direction": "west",
+      "toSceneId": 45,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 47,
+      "direction": "east",
+      "toSceneId": 42,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 47,
+      "direction": "north",
+      "toSceneId": 51,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 47,
+      "direction": "south",
+      "toSceneId": 41,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 47,
+      "direction": "west",
+      "toSceneId": 46,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 48,
+      "direction": "east",
+      "toSceneId": 52,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 48,
+      "direction": "north",
+      "toSceneId": 51,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 48,
+      "direction": "south",
+      "toSceneId": 43,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 48,
+      "direction": "west",
+      "toSceneId": 42,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 49,
+      "direction": "east",
+      "toSceneId": 50,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 49,
+      "direction": "north",
+      "toSceneId": 52,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 49,
+      "direction": "south",
+      "toSceneId": 43,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 49,
+      "direction": "west",
+      "toSceneId": 44,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 50,
+      "direction": "east",
+      "toSceneId": 49,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 50,
+      "direction": "north",
+      "toSceneId": 53,
+      "requiredItemId": 6,
+      "blockedMessage": "El Guardián levanta su espada flamígera. No puedes pasar sin calmarlo."
+    },
+    {
+      "fromSceneId": 50,
+      "direction": "south",
+      "toSceneId": 45,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 50,
+      "direction": "west",
+      "toSceneId": 46,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 51,
+      "direction": "east",
+      "toSceneId": 48,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 51,
+      "direction": "north",
+      "toSceneId": 55,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 51,
+      "direction": "south",
+      "toSceneId": 47,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 51,
+      "direction": "west",
+      "toSceneId": 53,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 52,
+      "direction": "east",
+      "toSceneId": 56,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 52,
+      "direction": "north",
+      "toSceneId": 55,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 52,
+      "direction": "south",
+      "toSceneId": 49,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 52,
+      "direction": "west",
+      "toSceneId": 48,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 53,
+      "direction": "east",
+      "toSceneId": 51,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 53,
+      "direction": "north",
+      "toSceneId": 56,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 53,
+      "direction": "south",
+      "toSceneId": 50,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 53,
+      "direction": "west",
+      "toSceneId": 54,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 54,
+      "direction": "east",
+      "toSceneId": 53,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 54,
+      "direction": "north",
+      "toSceneId": 57,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 54,
+      "direction": "west",
+      "toSceneId": 56,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 55,
+      "direction": "east",
+      "toSceneId": 52,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 55,
+      "direction": "north",
+      "toSceneId": 58,
+      "requiredItemId": 7,
+      "blockedMessage": "La puerta pulsa como algo vivo. La depresión en forma de gota pide algo."
+    },
+    {
+      "fromSceneId": 55,
+      "direction": "south",
+      "toSceneId": 51,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 55,
+      "direction": "west",
+      "toSceneId": 57,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 56,
+      "direction": "east",
+      "toSceneId": 54,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 56,
+      "direction": "north",
+      "toSceneId": 59,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 56,
+      "direction": "south",
+      "toSceneId": 52,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 56,
+      "direction": "west",
+      "toSceneId": 53,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 57,
+      "direction": "east",
+      "toSceneId": 55,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 57,
+      "direction": "north",
+      "toSceneId": 59,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 57,
+      "direction": "south",
+      "toSceneId": 54,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 57,
+      "direction": "west",
+      "toSceneId": 60,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 58,
+      "direction": "east",
+      "toSceneId": 62,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 58,
+      "direction": "north",
+      "toSceneId": 61,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 58,
+      "direction": "south",
+      "toSceneId": 55,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 58,
+      "direction": "west",
+      "toSceneId": 59,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 59,
+      "direction": "east",
+      "toSceneId": 58,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 59,
+      "direction": "north",
+      "toSceneId": 61,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 59,
+      "direction": "south",
+      "toSceneId": 56,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 59,
+      "direction": "west",
+      "toSceneId": 57,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 60,
+      "direction": "east",
+      "toSceneId": 57,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 60,
+      "direction": "north",
+      "toSceneId": 63,
+      "requiredItemId": 8,
+      "blockedMessage": "El Rey Duende no te deja pasar sin tributo real."
+    },
+    {
+      "fromSceneId": 60,
+      "direction": "west",
+      "toSceneId": 64,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 61,
+      "direction": "east",
+      "toSceneId": 65,
+      "requiredItemId": 9,
+      "blockedMessage": "Los árboles parecen impenetrables. Necesitas ver lo que está oculto."
+    },
+    {
+      "fromSceneId": 61,
+      "direction": "north",
+      "toSceneId": 64,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 61,
+      "direction": "south",
+      "toSceneId": 58,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 61,
+      "direction": "west",
+      "toSceneId": 59,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 62,
+      "direction": "east",
+      "toSceneId": 66,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 62,
+      "direction": "north",
+      "toSceneId": 65,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 62,
+      "direction": "south",
+      "toSceneId": 58,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 63,
+      "direction": "east",
+      "toSceneId": 64,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 63,
+      "direction": "north",
+      "toSceneId": 66,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 63,
+      "direction": "south",
+      "toSceneId": 60,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 63,
+      "direction": "west",
+      "toSceneId": 67,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 64,
+      "direction": "east",
+      "toSceneId": 63,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 64,
+      "direction": "north",
+      "toSceneId": 67,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 64,
+      "direction": "south",
+      "toSceneId": 61,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 64,
+      "direction": "west",
+      "toSceneId": 60,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 65,
+      "direction": "east",
+      "toSceneId": 66,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 65,
+      "direction": "north",
+      "toSceneId": 68,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 65,
+      "direction": "south",
+      "toSceneId": 62,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 65,
+      "direction": "west",
+      "toSceneId": 61,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 66,
+      "direction": "east",
+      "toSceneId": 63,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 66,
+      "direction": "north",
+      "toSceneId": 69,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 66,
+      "direction": "south",
+      "toSceneId": 62,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 66,
+      "direction": "west",
+      "toSceneId": 65,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 67,
+      "direction": "east",
+      "toSceneId": 63,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 67,
+      "direction": "north",
+      "toSceneId": 69,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 67,
+      "direction": "south",
+      "toSceneId": 64,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 67,
+      "direction": "west",
+      "toSceneId": 70,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 68,
+      "direction": "east",
+      "toSceneId": 69,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 68,
+      "direction": "north",
+      "toSceneId": 70,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 68,
+      "direction": "south",
+      "toSceneId": 65,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 68,
+      "direction": "west",
+      "toSceneId": 71,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 69,
+      "direction": "east",
+      "toSceneId": 67,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 69,
+      "direction": "north",
+      "toSceneId": 72,
+      "requiredItemId": 10,
+      "blockedMessage": "El viento es un muro invisible. Necesitas algo del cielo para romper el sello."
+    },
+    {
+      "fromSceneId": 69,
+      "direction": "south",
+      "toSceneId": 66,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 69,
+      "direction": "west",
+      "toSceneId": 68,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 70,
+      "direction": "east",
+      "toSceneId": 68,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 70,
+      "direction": "north",
+      "toSceneId": 72,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 70,
+      "direction": "south",
+      "toSceneId": 67,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 70,
+      "direction": "west",
+      "toSceneId": 71,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 71,
+      "direction": "east",
+      "toSceneId": 70,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 71,
+      "direction": "north",
+      "toSceneId": 73,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 71,
+      "direction": "south",
+      "toSceneId": 68,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 71,
+      "direction": "west",
+      "toSceneId": 74,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 72,
+      "direction": "east",
+      "toSceneId": 73,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 72,
+      "direction": "north",
+      "toSceneId": 75,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 72,
+      "direction": "south",
+      "toSceneId": 69,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 72,
+      "direction": "west",
+      "toSceneId": 70,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 73,
+      "direction": "east",
+      "toSceneId": 75,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 73,
+      "direction": "north",
+      "toSceneId": 76,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 73,
+      "direction": "south",
+      "toSceneId": 71,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 73,
+      "direction": "west",
+      "toSceneId": 72,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 74,
+      "direction": "east",
+      "toSceneId": 71,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 74,
+      "direction": "north",
+      "toSceneId": 76,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 74,
+      "direction": "south",
+      "toSceneId": 101,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 74,
+      "direction": "west",
+      "toSceneId": 77,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 75,
+      "direction": "east",
+      "toSceneId": 73,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 75,
+      "direction": "north",
+      "toSceneId": 77,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 75,
+      "direction": "south",
+      "toSceneId": 72,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 75,
+      "direction": "west",
+      "toSceneId": 78,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 76,
+      "direction": "east",
+      "toSceneId": 77,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 76,
+      "direction": "north",
+      "toSceneId": 79,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 76,
+      "direction": "south",
+      "toSceneId": 73,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 76,
+      "direction": "west",
+      "toSceneId": 74,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 77,
+      "direction": "east",
+      "toSceneId": 76,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 77,
+      "direction": "north",
+      "toSceneId": 79,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 77,
+      "direction": "south",
+      "toSceneId": 75,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 77,
+      "direction": "west",
+      "toSceneId": 78,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 78,
+      "direction": "east",
+      "toSceneId": 77,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 78,
+      "direction": "north",
+      "toSceneId": 80,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 78,
+      "direction": "south",
+      "toSceneId": 75,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 78,
+      "direction": "west",
+      "toSceneId": 81,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 79,
+      "direction": "east",
+      "toSceneId": 77,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 79,
+      "direction": "north",
+      "toSceneId": 80,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 79,
+      "direction": "south",
+      "toSceneId": 76,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 79,
+      "direction": "west",
+      "toSceneId": 82,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 80,
+      "direction": "east",
+      "toSceneId": 78,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 80,
+      "direction": "north",
+      "toSceneId": 83,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 80,
+      "direction": "south",
+      "toSceneId": 79,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 80,
+      "direction": "west",
+      "toSceneId": 82,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 81,
+      "direction": "east",
+      "toSceneId": 78,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 81,
+      "direction": "north",
+      "toSceneId": 83,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 81,
+      "direction": "south",
+      "toSceneId": 111,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 81,
+      "direction": "west",
+      "toSceneId": 84,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 82,
+      "direction": "east",
+      "toSceneId": 80,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 82,
+      "direction": "north",
+      "toSceneId": 84,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 82,
+      "direction": "south",
+      "toSceneId": 79,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 82,
+      "direction": "west",
+      "toSceneId": 85,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 83,
+      "direction": "east",
+      "toSceneId": 81,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 83,
+      "direction": "north",
+      "toSceneId": 85,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 83,
+      "direction": "south",
+      "toSceneId": 80,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 83,
+      "direction": "west",
+      "toSceneId": 84,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 84,
+      "direction": "east",
+      "toSceneId": 81,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 84,
+      "direction": "north",
+      "toSceneId": 85,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 84,
+      "direction": "south",
+      "toSceneId": 82,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 84,
+      "direction": "west",
+      "toSceneId": 83,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 85,
+      "direction": "east",
+      "toSceneId": 84,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 85,
+      "direction": "north",
+      "toSceneId": 86,
+      "requiredItemId": 12,
+      "blockedMessage": "La reja de plata no cede. Necesitas la llave correcta."
+    },
+    {
+      "fromSceneId": 85,
+      "direction": "south",
+      "toSceneId": 83,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 85,
+      "direction": "west",
+      "toSceneId": 82,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 86,
+      "direction": "north",
+      "toSceneId": 87,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 86,
+      "direction": "south",
+      "toSceneId": 85,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 87,
+      "direction": "east",
+      "toSceneId": 89,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 87,
+      "direction": "north",
+      "toSceneId": 88,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 87,
+      "direction": "south",
+      "toSceneId": 86,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 88,
+      "direction": "east",
+      "toSceneId": 89,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 88,
+      "direction": "north",
+      "toSceneId": 90,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 88,
+      "direction": "south",
+      "toSceneId": 87,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 88,
+      "direction": "west",
+      "toSceneId": 91,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 89,
+      "direction": "north",
+      "toSceneId": 91,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 89,
+      "direction": "south",
+      "toSceneId": 87,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 89,
+      "direction": "west",
+      "toSceneId": 88,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 90,
+      "direction": "east",
+      "toSceneId": 91,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 90,
+      "direction": "north",
+      "toSceneId": 92,
+      "requiredItemId": 13,
+      "blockedMessage": "Los Centinelas te detectan. No puedes pasar sin ser invisible."
+    },
+    {
+      "fromSceneId": 90,
+      "direction": "south",
+      "toSceneId": 88,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 91,
+      "direction": "east",
+      "toSceneId": 88,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 91,
+      "direction": "north",
+      "toSceneId": 92,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 91,
+      "direction": "south",
+      "toSceneId": 89,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 91,
+      "direction": "west",
+      "toSceneId": 90,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 92,
+      "direction": "east",
+      "toSceneId": 91,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 92,
+      "direction": "north",
+      "toSceneId": 93,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 92,
+      "direction": "south",
+      "toSceneId": 90,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 93,
+      "direction": "north",
+      "toSceneId": 94,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 93,
+      "direction": "south",
+      "toSceneId": 92,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 94,
+      "direction": "east",
+      "toSceneId": 95,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 94,
+      "direction": "north",
+      "toSceneId": 96,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 94,
+      "direction": "south",
+      "toSceneId": 93,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 95,
+      "direction": "north",
+      "toSceneId": 96,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 95,
+      "direction": "south",
+      "toSceneId": 94,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 95,
+      "direction": "west",
+      "toSceneId": 94,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 96,
+      "direction": "east",
+      "toSceneId": 98,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 96,
+      "direction": "north",
+      "toSceneId": 97,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 96,
+      "direction": "south",
+      "toSceneId": 94,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 96,
+      "direction": "west",
+      "toSceneId": 95,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 97,
+      "direction": "east",
+      "toSceneId": 98,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 97,
+      "direction": "north",
+      "toSceneId": 99,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 97,
+      "direction": "south",
+      "toSceneId": 96,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 98,
+      "direction": "east",
+      "toSceneId": 131,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 98,
+      "direction": "north",
+      "toSceneId": 99,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 98,
+      "direction": "south",
+      "toSceneId": 96,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 98,
+      "direction": "west",
+      "toSceneId": 97,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 99,
+      "direction": "east",
+      "toSceneId": 98,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 99,
+      "direction": "north",
+      "toSceneId": 100,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 99,
+      "direction": "south",
+      "toSceneId": 97,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 100,
+      "direction": "south",
+      "toSceneId": 99,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 101,
+      "direction": "north",
+      "toSceneId": 74,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 101,
+      "direction": "south",
+      "toSceneId": 102,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 102,
+      "direction": "east",
+      "toSceneId": 103,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 102,
+      "direction": "north",
+      "toSceneId": 101,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 102,
+      "direction": "south",
+      "toSceneId": 105,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 102,
+      "direction": "west",
+      "toSceneId": 106,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 103,
+      "direction": "north",
+      "toSceneId": 104,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 103,
+      "direction": "west",
+      "toSceneId": 102,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 104,
+      "direction": "south",
+      "toSceneId": 103,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 104,
+      "direction": "west",
+      "toSceneId": 105,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 105,
+      "direction": "east",
+      "toSceneId": 104,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 105,
+      "direction": "north",
+      "toSceneId": 102,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 105,
+      "direction": "west",
+      "toSceneId": 108,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 106,
+      "direction": "east",
+      "toSceneId": 102,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 106,
+      "direction": "north",
+      "toSceneId": 107,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 106,
+      "direction": "south",
+      "toSceneId": 110,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 107,
+      "direction": "east",
+      "toSceneId": 108,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 107,
+      "direction": "south",
+      "toSceneId": 106,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 108,
+      "direction": "east",
+      "toSceneId": 105,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 108,
+      "direction": "north",
+      "toSceneId": 109,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 108,
+      "direction": "west",
+      "toSceneId": 107,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 109,
+      "direction": "south",
+      "toSceneId": 108,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 110,
+      "direction": "north",
+      "toSceneId": 106,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 111,
+      "direction": "north",
+      "toSceneId": 81,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 111,
+      "direction": "south",
+      "toSceneId": 112,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 112,
+      "direction": "east",
+      "toSceneId": 113,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 112,
+      "direction": "north",
+      "toSceneId": 111,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 112,
+      "direction": "south",
+      "toSceneId": 115,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 112,
+      "direction": "west",
+      "toSceneId": 114,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 113,
+      "direction": "south",
+      "toSceneId": 116,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 113,
+      "direction": "west",
+      "toSceneId": 112,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 114,
+      "direction": "east",
+      "toSceneId": 112,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 114,
+      "direction": "south",
+      "toSceneId": 118,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 115,
+      "direction": "east",
+      "toSceneId": 116,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 115,
+      "direction": "north",
+      "toSceneId": 112,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 115,
+      "direction": "south",
+      "toSceneId": 117,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 116,
+      "direction": "north",
+      "toSceneId": 113,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 116,
+      "direction": "south",
+      "toSceneId": 119,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 116,
+      "direction": "west",
+      "toSceneId": 115,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 117,
+      "direction": "east",
+      "toSceneId": 119,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 117,
+      "direction": "north",
+      "toSceneId": 115,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 117,
+      "direction": "south",
+      "toSceneId": 120,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 118,
+      "direction": "east",
+      "toSceneId": 119,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 118,
+      "direction": "north",
+      "toSceneId": 114,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 119,
+      "direction": "north",
+      "toSceneId": 116,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 119,
+      "direction": "south",
+      "toSceneId": 120,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 119,
+      "direction": "west",
+      "toSceneId": 118,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 120,
+      "direction": "east",
+      "toSceneId": 119,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 120,
+      "direction": "north",
+      "toSceneId": 117,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 121,
+      "direction": "north",
+      "toSceneId": 122,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 121,
+      "direction": "south",
+      "toSceneId": 82,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 122,
+      "direction": "east",
+      "toSceneId": 124,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 122,
+      "direction": "north",
+      "toSceneId": 123,
+      "requiredItemId": 21,
+      "blockedMessage": "Los rápidos te arrastrarían sin una balsa. Necesitas algo para navegar."
+    },
+    {
+      "fromSceneId": 122,
+      "direction": "south",
+      "toSceneId": 121,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 123,
+      "direction": "east",
+      "toSceneId": 127,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 123,
+      "direction": "north",
+      "toSceneId": 125,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 123,
+      "direction": "south",
+      "toSceneId": 122,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 124,
+      "direction": "east",
+      "toSceneId": 130,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 124,
+      "direction": "north",
+      "toSceneId": 125,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 124,
+      "direction": "west",
+      "toSceneId": 122,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 125,
+      "direction": "east",
+      "toSceneId": 126,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 125,
+      "direction": "south",
+      "toSceneId": 123,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 125,
+      "direction": "west",
+      "toSceneId": 124,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 126,
+      "direction": "east",
+      "toSceneId": 127,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 126,
+      "direction": "north",
+      "toSceneId": 128,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 126,
+      "direction": "west",
+      "toSceneId": 125,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 127,
+      "direction": "north",
+      "toSceneId": 128,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 127,
+      "direction": "south",
+      "toSceneId": 123,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 127,
+      "direction": "west",
+      "toSceneId": 126,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 128,
+      "direction": "east",
+      "toSceneId": 129,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 128,
+      "direction": "south",
+      "toSceneId": 127,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 128,
+      "direction": "west",
+      "toSceneId": 126,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 129,
+      "direction": "west",
+      "toSceneId": 128,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 130,
+      "direction": "south",
+      "toSceneId": 127,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 130,
+      "direction": "west",
+      "toSceneId": 124,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 131,
+      "direction": "east",
+      "toSceneId": 136,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 131,
+      "direction": "north",
+      "toSceneId": 132,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 131,
+      "direction": "west",
+      "toSceneId": 98,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 132,
+      "direction": "east",
+      "toSceneId": 134,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 132,
+      "direction": "north",
+      "toSceneId": 133,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 132,
+      "direction": "south",
+      "toSceneId": 131,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 133,
+      "direction": "east",
+      "toSceneId": 135,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 133,
+      "direction": "south",
+      "toSceneId": 132,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 134,
+      "direction": "east",
+      "toSceneId": 138,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 134,
+      "direction": "north",
+      "toSceneId": 135,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 134,
+      "direction": "west",
+      "toSceneId": 132,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 135,
+      "direction": "east",
+      "toSceneId": 137,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 135,
+      "direction": "south",
+      "toSceneId": 134,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 135,
+      "direction": "west",
+      "toSceneId": 133,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 136,
+      "direction": "north",
+      "toSceneId": 138,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 136,
+      "direction": "west",
+      "toSceneId": 131,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 137,
+      "direction": "south",
+      "toSceneId": 139,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 137,
+      "direction": "west",
+      "toSceneId": 135,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 138,
+      "direction": "east",
+      "toSceneId": 139,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 138,
+      "direction": "south",
+      "toSceneId": 136,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 138,
+      "direction": "west",
+      "toSceneId": 134,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 139,
+      "direction": "east",
+      "toSceneId": 140,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 139,
+      "direction": "north",
+      "toSceneId": 137,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 139,
+      "direction": "west",
+      "toSceneId": 138,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 140,
+      "direction": "west",
+      "toSceneId": 139,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 141,
+      "direction": "north",
+      "toSceneId": 142,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 141,
+      "direction": "south",
+      "toSceneId": 76,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 142,
+      "direction": "east",
+      "toSceneId": 144,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 142,
+      "direction": "north",
+      "toSceneId": 143,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 142,
+      "direction": "south",
+      "toSceneId": 141,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 142,
+      "direction": "west",
+      "toSceneId": 145,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 143,
+      "direction": "east",
+      "toSceneId": 146,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 143,
+      "direction": "south",
+      "toSceneId": 142,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 143,
+      "direction": "west",
+      "toSceneId": 147,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 144,
+      "direction": "north",
+      "toSceneId": 148,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 144,
+      "direction": "west",
+      "toSceneId": 142,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 145,
+      "direction": "east",
+      "toSceneId": 142,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 145,
+      "direction": "north",
+      "toSceneId": 147,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 146,
+      "direction": "east",
+      "toSceneId": 149,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 146,
+      "direction": "north",
+      "toSceneId": 148,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 146,
+      "direction": "west",
+      "toSceneId": 143,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 147,
+      "direction": "east",
+      "toSceneId": 143,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 147,
+      "direction": "north",
+      "toSceneId": 150,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 147,
+      "direction": "south",
+      "toSceneId": 145,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 148,
+      "direction": "east",
+      "toSceneId": 149,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 148,
+      "direction": "south",
+      "toSceneId": 144,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 148,
+      "direction": "west",
+      "toSceneId": 146,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 149,
+      "direction": "north",
+      "toSceneId": 150,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 149,
+      "direction": "south",
+      "toSceneId": 146,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 149,
+      "direction": "west",
+      "toSceneId": 148,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 150,
+      "direction": "south",
+      "toSceneId": 149,
+      "requiredItemId": null,
+      "blockedMessage": null
+    },
+    {
+      "fromSceneId": 150,
+      "direction": "west",
+      "toSceneId": 147,
+      "requiredItemId": null,
+      "blockedMessage": null
+    }
+  ],
+  "altDescriptions": [
+    {
+      "sceneId": 31,
+      "conditionType": "has_item",
+      "conditionItemId": 2,
+      "description": "La llama azul revela cristales en las paredes que reflejan la luz como un cielo estrellado subterráneo. Los huesos en el suelo crujen bajo tus pies. La cueva se extiende más allá de lo que la luz alcanza."
+    },
+    {
+      "sceneId": 31,
+      "conditionType": "not_has_item",
+      "conditionItemId": 2,
+      "description": "La oscuridad es total. No puedes ver tu propia mano. Algo respira dentro. Necesitas una fuente de luz para explorar este lugar."
+    },
+    {
+      "sceneId": 35,
+      "conditionType": "has_item",
+      "conditionItemId": 3,
+      "description": "El lago es un espejo perfecto. El espíritu te mira sin ojos. Tu amuleto de hueso brilla — el espíritu asiente y te deja pasar en paz."
+    },
+    {
+      "sceneId": 35,
+      "conditionType": "not_has_item",
+      "conditionItemId": 3,
+      "description": "El lago es un espejo perfecto. Un espíritu translúcido flota sobre la superficie. Te mira con ojos vacíos y hambrientos. Sin protección, este lugar es tu tumba."
+    },
+    {
+      "sceneId": 45,
+      "conditionType": "has_item",
+      "conditionItemId": 5,
+      "description": "Levantas el espejo roto. La Gorgona se ve a sí misma y grita — un sonido que rompe más espejos. Se retira a las sombras, furiosa pero impotente. El camino queda libre."
+    },
+    {
+      "sceneId": 45,
+      "conditionType": "not_has_item",
+      "conditionItemId": 5,
+      "description": "Las estatuas de piedra te rodean con expresiones de terror. En las sombras, serpientes sisean. La Gorgona avanza — si la miras, serás piedra. Necesitas algo para reflejar su mirada."
+    },
+    {
+      "sceneId": 50,
+      "conditionType": "has_item",
+      "conditionItemId": 6,
+      "description": "Tocas la flauta de hueso. La melodía es triste, antigua. El Guardián baja la espada lentamente, como recordando algo. Se hace a un lado y la luz de sus ojos se apaga un momento — como lágrimas de fuego."
+    },
+    {
+      "sceneId": 50,
+      "conditionType": "not_has_item",
+      "conditionItemId": 6,
+      "description": "El Guardián levanta su espada flamígera. Es una armadura sin cuerpo, sostenida por una voluntad antigua. No puedes pasar por la fuerza. Algo lo calmaría... una melodía quizás."
+    },
+    {
+      "sceneId": 55,
+      "conditionType": "has_item",
+      "conditionItemId": 7,
+      "description": "Viertes la Sangre de Luna en la depresión. La puerta suspira — un sonido orgánico y perturbador. Las venas rojas brillan intensamente y la piedra se abre como una herida."
+    },
+    {
+      "sceneId": 55,
+      "conditionType": "not_has_item",
+      "conditionItemId": 7,
+      "description": "La puerta pulsa como algo vivo. La depresión en forma de gota pide algo. Los árboles se inclinan hacia ella como adorándola. No hay forma de abrirla sin lo que pide."
+    },
+    {
+      "sceneId": 60,
+      "conditionType": "has_item",
+      "conditionItemId": 8,
+      "description": "Presentas la Corona de Espinas. El Rey Duende se levanta — sus ojos brillan. 'La corona del Rey Antiguo... Entonces eres digno.' Se inclina y te abre el camino."
+    },
+    {
+      "sceneId": 60,
+      "conditionType": "not_has_item",
+      "conditionItemId": 8,
+      "description": "El Rey Duende te mira con desprecio. '¿Qué eres tú para presentarte sin tributo ante un rey?' Sus guardias levantan lanzas de hueso. No te dejará pasar sin prueba de respeto."
+    },
+    {
+      "sceneId": 85,
+      "conditionType": "has_item",
+      "conditionItemId": 12,
+      "description": "La Llave de Plata encaja perfectamente. La reja se abre con un sonido musical — como una nota de arpa. Las gárgolas cierran los ojos, como dándote la bienvenida."
+    },
+    {
+      "sceneId": 85,
+      "conditionType": "not_has_item",
+      "conditionItemId": 12,
+      "description": "La reja no cede. La cerradura de plata brilla burlándose de tus intentos. Las gárgolas te miran con sonrisas pétreas. La torre se alza imposible detrás."
+    },
+    {
+      "sceneId": 90,
+      "conditionType": "has_item",
+      "conditionItemId": 13,
+      "description": "El Manto de Sombras te envuelve en oscuridad. Los Centinelas miran a través de ti — eres invisible, eres sombra, eres nada. Pasas entre ellos como un fantasma."
+    },
+    {
+      "sceneId": 90,
+      "conditionType": "not_has_item",
+      "conditionItemId": 13,
+      "description": "Los Centinelas cobran vida al detectarte. Sus ojos se encienden rojos y las espadas apuntan a tu garganta. Son demasiados. No puedes pasar sin ser invisible."
+    },
+    {
+      "sceneId": 100,
+      "conditionType": "has_item",
+      "conditionItemId": 14,
+      "description": "Elara está aquí. Las cadenas de sombra la atan. Levantas la Espada de Cristal — corta las cadenas como si fueran humo. Pero sus ojos abiertos no te ven. Necesitas algo más para despertarla."
+    },
+    {
+      "sceneId": 100,
+      "conditionType": "not_has_item",
+      "conditionItemId": 14,
+      "description": "Elara está aquí. Dormida con los ojos abiertos — un sueño maldito. Cadenas de sombra la atan a la torre. No puedes romperlas con las manos. Necesitas algo que corte la oscuridad."
+    }
+  ],
+  "sceneImages": [
+    {
+      "id": 1,
+      "imageUrl": "/assets/scene-1.png"
+    },
+    {
+      "id": 2,
+      "imageUrl": "/assets/scene-2.png"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/assets/scene-3.png"
+    },
+    {
+      "id": 4,
+      "imageUrl": "/assets/scene-4.png"
+    },
+    {
+      "id": 5,
+      "imageUrl": "/assets/scene-5.png"
+    },
+    {
+      "id": 6,
+      "imageUrl": "/assets/scene-6.png"
+    },
+    {
+      "id": 7,
+      "imageUrl": "/assets/scene-7.png"
+    },
+    {
+      "id": 8,
+      "imageUrl": "/assets/scene-8.png"
+    },
+    {
+      "id": 9,
+      "imageUrl": "/assets/scene-9.png"
+    },
+    {
+      "id": 10,
+      "imageUrl": "/assets/scene-10.png"
+    },
+    {
+      "id": 11,
+      "imageUrl": "/assets/scene-11.png"
+    },
+    {
+      "id": 12,
+      "imageUrl": "/assets/scene-12.png"
+    },
+    {
+      "id": 13,
+      "imageUrl": "/assets/scene-13.png"
+    },
+    {
+      "id": 14,
+      "imageUrl": "/assets/scene-14.png"
+    },
+    {
+      "id": 15,
+      "imageUrl": "/assets/scene-15.png"
+    },
+    {
+      "id": 16,
+      "imageUrl": "/assets/scene-16.png"
+    },
+    {
+      "id": 17,
+      "imageUrl": "/assets/scene-17.png"
+    },
+    {
+      "id": 18,
+      "imageUrl": "/assets/scene-18.png"
+    },
+    {
+      "id": 19,
+      "imageUrl": "/assets/scene-19.png"
+    },
+    {
+      "id": 20,
+      "imageUrl": "/assets/scene-20.png"
+    },
+    {
+      "id": 21,
+      "imageUrl": "/assets/scene-21.png"
+    },
+    {
+      "id": 22,
+      "imageUrl": "/assets/scene-22.png"
+    },
+    {
+      "id": 23,
+      "imageUrl": "/assets/scene-23.png"
+    },
+    {
+      "id": 24,
+      "imageUrl": "/assets/scene-24.png"
+    },
+    {
+      "id": 25,
+      "imageUrl": "/assets/scene-25.png"
+    },
+    {
+      "id": 26,
+      "imageUrl": "/assets/scene-26.png"
+    },
+    {
+      "id": 27,
+      "imageUrl": "/assets/scene-27.png"
+    },
+    {
+      "id": 28,
+      "imageUrl": "/assets/scene-28.png"
+    },
+    {
+      "id": 29,
+      "imageUrl": "/assets/scene-29.png"
+    },
+    {
+      "id": 30,
+      "imageUrl": "/assets/scene-30.png"
+    },
+    {
+      "id": 31,
+      "imageUrl": "/assets/scene-31.png"
+    },
+    {
+      "id": 32,
+      "imageUrl": "/assets/scene-32.png"
+    },
+    {
+      "id": 33,
+      "imageUrl": "/assets/scene-33.png"
+    },
+    {
+      "id": 34,
+      "imageUrl": "/assets/scene-34.png"
+    },
+    {
+      "id": 35,
+      "imageUrl": "/assets/scene-35.png"
+    },
+    {
+      "id": 36,
+      "imageUrl": "/assets/scene-36.png"
+    },
+    {
+      "id": 37,
+      "imageUrl": "/assets/scene-37.png"
+    },
+    {
+      "id": 38,
+      "imageUrl": "/assets/scene-38.png"
+    },
+    {
+      "id": 39,
+      "imageUrl": "/assets/scene-39.png"
+    },
+    {
+      "id": 40,
+      "imageUrl": "/assets/scene-40.png"
+    },
+    {
+      "id": 41,
+      "imageUrl": "/assets/scene-41.png"
+    },
+    {
+      "id": 42,
+      "imageUrl": "/assets/scene-42.png"
+    },
+    {
+      "id": 43,
+      "imageUrl": "/assets/scene-43.png"
+    },
+    {
+      "id": 44,
+      "imageUrl": "/assets/scene-44.png"
+    },
+    {
+      "id": 45,
+      "imageUrl": "/assets/scene-45.png"
+    },
+    {
+      "id": 46,
+      "imageUrl": "/assets/scene-46.png"
+    },
+    {
+      "id": 47,
+      "imageUrl": "/assets/scene-47.png"
+    },
+    {
+      "id": 48,
+      "imageUrl": "/assets/scene-48.png"
+    },
+    {
+      "id": 49,
+      "imageUrl": "/assets/scene-49.png"
+    },
+    {
+      "id": 50,
+      "imageUrl": "/assets/scene-50.png"
+    },
+    {
+      "id": 51,
+      "imageUrl": "/assets/scene-51.png"
+    },
+    {
+      "id": 52,
+      "imageUrl": "/assets/scene-52.png"
+    },
+    {
+      "id": 53,
+      "imageUrl": "/assets/scene-53.png"
+    },
+    {
+      "id": 54,
+      "imageUrl": "/assets/scene-54.png"
+    },
+    {
+      "id": 55,
+      "imageUrl": "/assets/scene-55.png"
+    },
+    {
+      "id": 56,
+      "imageUrl": "/assets/scene-56.png"
+    },
+    {
+      "id": 57,
+      "imageUrl": "/assets/scene-57.png"
+    },
+    {
+      "id": 58,
+      "imageUrl": "/assets/scene-58.png"
+    },
+    {
+      "id": 59,
+      "imageUrl": "/assets/scene-59.png"
+    },
+    {
+      "id": 60,
+      "imageUrl": "/assets/scene-60.png"
+    },
+    {
+      "id": 61,
+      "imageUrl": "/assets/scene-61.png"
+    },
+    {
+      "id": 62,
+      "imageUrl": "/assets/scene-62.png"
+    },
+    {
+      "id": 63,
+      "imageUrl": "/assets/scene-63.png"
+    },
+    {
+      "id": 64,
+      "imageUrl": "/assets/scene-64.png"
+    },
+    {
+      "id": 65,
+      "imageUrl": "/assets/scene-65.png"
+    },
+    {
+      "id": 66,
+      "imageUrl": "/assets/scene-66.png"
+    },
+    {
+      "id": 67,
+      "imageUrl": "/assets/scene-67.png"
+    },
+    {
+      "id": 68,
+      "imageUrl": "/assets/scene-68.png"
+    },
+    {
+      "id": 69,
+      "imageUrl": "/assets/scene-69.png"
+    },
+    {
+      "id": 70,
+      "imageUrl": "/assets/scene-70.png"
+    },
+    {
+      "id": 71,
+      "imageUrl": "/assets/scene-71.png"
+    },
+    {
+      "id": 72,
+      "imageUrl": "/assets/scene-72.png"
+    },
+    {
+      "id": 73,
+      "imageUrl": "/assets/scene-73.png"
+    },
+    {
+      "id": 74,
+      "imageUrl": "/assets/scene-74.png"
+    },
+    {
+      "id": 75,
+      "imageUrl": "/assets/scene-75.png"
+    },
+    {
+      "id": 76,
+      "imageUrl": "/assets/scene-76.png"
+    },
+    {
+      "id": 77,
+      "imageUrl": "/assets/scene-77.png"
+    },
+    {
+      "id": 78,
+      "imageUrl": "/assets/scene-78.png"
+    },
+    {
+      "id": 79,
+      "imageUrl": "/assets/scene-79.png"
+    },
+    {
+      "id": 80,
+      "imageUrl": "/assets/scene-80.png"
+    },
+    {
+      "id": 81,
+      "imageUrl": "/assets/scene-81.png"
+    },
+    {
+      "id": 82,
+      "imageUrl": "/assets/scene-82.png"
+    },
+    {
+      "id": 83,
+      "imageUrl": "/assets/scene-83.png"
+    },
+    {
+      "id": 84,
+      "imageUrl": "/assets/scene-84.png"
+    },
+    {
+      "id": 85,
+      "imageUrl": "/assets/scene-85.png"
+    },
+    {
+      "id": 86,
+      "imageUrl": "/assets/scene-86.png"
+    },
+    {
+      "id": 87,
+      "imageUrl": "/assets/scene-87.png"
+    },
+    {
+      "id": 88,
+      "imageUrl": "/assets/scene-88.png"
+    },
+    {
+      "id": 89,
+      "imageUrl": "/assets/scene-89.png"
+    },
+    {
+      "id": 90,
+      "imageUrl": "/assets/scene-90.png"
+    },
+    {
+      "id": 91,
+      "imageUrl": "/assets/scene-91.png"
+    },
+    {
+      "id": 92,
+      "imageUrl": "/assets/scene-92.png"
+    },
+    {
+      "id": 93,
+      "imageUrl": "/assets/scene-93.png"
+    },
+    {
+      "id": 94,
+      "imageUrl": "/assets/scene-94.png"
+    },
+    {
+      "id": 95,
+      "imageUrl": "/assets/scene-95.png"
+    },
+    {
+      "id": 96,
+      "imageUrl": "/assets/scene-96.png"
+    },
+    {
+      "id": 97,
+      "imageUrl": "/assets/scene-97.png"
+    },
+    {
+      "id": 98,
+      "imageUrl": "/assets/scene-98.png"
+    },
+    {
+      "id": 99,
+      "imageUrl": "/assets/scene-99.png"
+    },
+    {
+      "id": 100,
+      "imageUrl": "/assets/scene-100.png"
+    },
+    {
+      "id": 101,
+      "imageUrl": "/assets/scene-101.png"
+    },
+    {
+      "id": 102,
+      "imageUrl": "/assets/scene-102.png"
+    },
+    {
+      "id": 103,
+      "imageUrl": "/assets/scene-103.png"
+    },
+    {
+      "id": 104,
+      "imageUrl": "/assets/scene-104.png"
+    },
+    {
+      "id": 105,
+      "imageUrl": "/assets/scene-105.png"
+    },
+    {
+      "id": 106,
+      "imageUrl": "/assets/scene-106.png"
+    },
+    {
+      "id": 107,
+      "imageUrl": "/assets/scene-107.png"
+    },
+    {
+      "id": 108,
+      "imageUrl": "/assets/scene-108.png"
+    },
+    {
+      "id": 109,
+      "imageUrl": "/assets/scene-109.png"
+    },
+    {
+      "id": 110,
+      "imageUrl": "/assets/scene-110.png"
+    },
+    {
+      "id": 111,
+      "imageUrl": "/assets/scene-111.png"
+    },
+    {
+      "id": 112,
+      "imageUrl": "/assets/scene-112.png"
+    },
+    {
+      "id": 113,
+      "imageUrl": "/assets/scene-113.png"
+    },
+    {
+      "id": 114,
+      "imageUrl": "/assets/scene-114.png"
+    },
+    {
+      "id": 115,
+      "imageUrl": "/assets/scene-115.png"
+    },
+    {
+      "id": 116,
+      "imageUrl": "/assets/scene-116.png"
+    },
+    {
+      "id": 117,
+      "imageUrl": "/assets/scene-117.png"
+    },
+    {
+      "id": 118,
+      "imageUrl": "/assets/scene-118.png"
+    },
+    {
+      "id": 119,
+      "imageUrl": "/assets/scene-119.png"
+    },
+    {
+      "id": 120,
+      "imageUrl": "/assets/scene-120.png"
+    },
+    {
+      "id": 121,
+      "imageUrl": "/assets/scene-121.png"
+    },
+    {
+      "id": 122,
+      "imageUrl": "/assets/scene-122.png"
+    },
+    {
+      "id": 123,
+      "imageUrl": "/assets/scene-123.png"
+    },
+    {
+      "id": 124,
+      "imageUrl": "/assets/scene-124.png"
+    },
+    {
+      "id": 125,
+      "imageUrl": "/assets/scene-125.png"
+    },
+    {
+      "id": 126,
+      "imageUrl": "/assets/scene-126.png"
+    },
+    {
+      "id": 127,
+      "imageUrl": "/assets/scene-127.png"
+    },
+    {
+      "id": 128,
+      "imageUrl": "/assets/scene-128.png"
+    },
+    {
+      "id": 129,
+      "imageUrl": "/assets/scene-129.png"
+    },
+    {
+      "id": 130,
+      "imageUrl": "/assets/scene-130.png"
+    },
+    {
+      "id": 131,
+      "imageUrl": "/assets/scene-131.png"
+    },
+    {
+      "id": 132,
+      "imageUrl": "/assets/scene-132.png"
+    },
+    {
+      "id": 133,
+      "imageUrl": "/assets/scene-133.png"
+    },
+    {
+      "id": 134,
+      "imageUrl": "/assets/scene-134.png"
+    },
+    {
+      "id": 135,
+      "imageUrl": "/assets/scene-135.png"
+    },
+    {
+      "id": 136,
+      "imageUrl": "/assets/scene-136.png"
+    },
+    {
+      "id": 137,
+      "imageUrl": "/assets/scene-137.png"
+    },
+    {
+      "id": 138,
+      "imageUrl": "/assets/scene-138.png"
+    },
+    {
+      "id": 139,
+      "imageUrl": "/assets/scene-139.png"
+    },
+    {
+      "id": 140,
+      "imageUrl": "/assets/scene-140.png"
+    },
+    {
+      "id": 141,
+      "imageUrl": "/assets/scene-141.png"
+    },
+    {
+      "id": 142,
+      "imageUrl": "/assets/scene-142.png"
+    },
+    {
+      "id": 143,
+      "imageUrl": "/assets/scene-143.png"
+    },
+    {
+      "id": 144,
+      "imageUrl": "/assets/scene-144.png"
+    },
+    {
+      "id": 145,
+      "imageUrl": "/assets/scene-145.png"
+    },
+    {
+      "id": 146,
+      "imageUrl": "/assets/scene-146.png"
+    },
+    {
+      "id": 147,
+      "imageUrl": "/assets/scene-147.png"
+    },
+    {
+      "id": 148,
+      "imageUrl": "/assets/scene-148.png"
+    },
+    {
+      "id": 149,
+      "imageUrl": "/assets/scene-149.png"
+    },
+    {
+      "id": 150,
+      "imageUrl": "/assets/scene-150.png"
+    }
+  ]
+}
