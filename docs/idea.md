@@ -29,3 +29,4 @@ Juego de aventura/ficción interactiva en 2D. El jugador explora un bosque lúgu
 - `SceneConnection` — dirección, destino, requiere objeto, texto bloqueado
 - `Item` — id, nombre, descripción, escena donde se encuentra
 - `PlayerProgress` — usuario, escena actual, objetos recogidos, historial
+
