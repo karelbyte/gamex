@@ -2,9 +2,12 @@ import { Pool } from "pg";
 import path from "path";
 import fs from "fs";
 
+const isRemote = !!process.env.RDS_HOST || !!process.env.AWS_REGION;
+
 function createPool(): Pool {
   return new Pool({
     connectionString: process.env.DATABASE_URL || "postgresql://postgres:postgres@localhost:5432/gamex",
+    ssl: isRemote ? { rejectUnauthorized: false } : false,
   });
 }
 

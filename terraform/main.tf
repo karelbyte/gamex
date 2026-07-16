@@ -198,9 +198,10 @@ resource "aws_ecs_task_definition" "gamex" {
       }]
       environment = [
         { name = "NODE_ENV",        value = "production" },
+        { name = "AWS_REGION",      value = var.region },
         { name = "AUTH_TRUST_HOST", value = "true" },
         { name = "AUTH_SECRET",     value = var.auth_secret },
-        { name = "DATABASE_URL",    value = "postgresql://${var.rds_user}:${random_password.rds_master.result}@${aws_db_instance.gamex.endpoint}:${var.rds_port}/gamex?sslmode=require" },
+        { name = "DATABASE_URL",    value = "postgresql://${var.rds_user}:${random_password.rds_master.result}@${aws_db_instance.gamex.endpoint}:${var.rds_port}/gamex" },
       ]
       logConfiguration = {
         logDriver = "awslogs"
